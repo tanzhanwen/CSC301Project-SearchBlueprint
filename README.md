@@ -15,7 +15,7 @@ Zhanwen Tan: I am a 3rd year computer science exchange student from University o
 # Personas
 
 # User Stories
-
+	[User Stories Doc](Phase1/User Stories.md)
 # MVP
 
 # Release and Iteration Planning
