@@ -1,5 +1,6 @@
 
 **Rating Scale:**
+
 1. High Importance: This feature is necessary for our project to function as intended. (Must be implemented for first release)
  
 2. Medium Importance: This is a very good feature that would greatly enhance user experience. (Some may be implemented for first release)
