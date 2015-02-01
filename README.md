@@ -11,6 +11,8 @@ Zhanwen Tan: I am a 3rd year computer science exchange student from University o
 
 Shivain Thapar: I am a 3rd year international student at the University of Toronto, specializing in computer science. I’m mostly interested in web development and GUI design. Outside computer science, I’m involved in Sports Business and Marketing and love basketball (Lakers fan for life).
 
+Vignesh Ravi: I am a 3rd year computer science student at University of Toronto. I enjoy programming and in my spare time, I usually work on side projects such as games and mobile apps. I also have a lot of interest for music and I play violin. My other hobbies include watching movies and reading books. 
+
 # Introduction of Project
 [Choosing The Project](Choosing-the-project.md)
 # Personas
