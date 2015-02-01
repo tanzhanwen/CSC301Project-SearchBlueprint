@@ -1,5 +1,6 @@
+####Rating Scale####
 
-**Rating Scale:**
+**Priority**
 
 1. High Importance: This feature is necessary for our project to function as intended. (Must be implemented for first release)
  
@@ -7,11 +8,13 @@
 
 3. Low Importance: This feature will not be highly noticed by general users, it's implementation is only a bonus. (Will not be implemented for first release)
 
-**EASY** - Can be implemented in less than a couple of hours.
+**Difficulty**
 
-**MEDIUM** - Can be implemented about a day.
+**EASY** - Can be implemented in less than a day.
 
-**HARD** - Can be implemented, but it might take more than a day.
+**MEDIUM** - Can be implemented within 3 days.
+
+**HARD** - Can be implemented, but it might take more than three days.
 
 
 1) As a beginner developer, I want a simple list of instructions on how to use the tutorial. 
