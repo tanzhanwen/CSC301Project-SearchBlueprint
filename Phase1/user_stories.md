@@ -19,9 +19,9 @@
 ####User Stories####
 1. As a beginner developer, I want a simple list of instructions on how to use the tutorial. *( 1 - Easy )* 
 
-2. As a student/ professional developer, I want to compare multiple (at least 2) search engines and their paths. *( 2 - Hard )*
+2. As an experienced developer, I want to compare multiple (at least 2) search engines and their paths. *( 2 - Hard )*
 
-3. As a beginner/ student developer, I want to know the skeletal concept of entire search engine operations. (web crawler, indexing, etc). *( 1 - Medium )*
+3. As a beginner/student developer, I want to know the skeletal concept of entire search engine operations. (web crawler, indexing, etc). *( 1 - Medium )*
 
 4. As a beginner developer I would like an interactive glossary of computer jargons while going through the interactive tutorials so that I can get a clearer understanding of what I am doing. (possible API). *( 2 - Medium )*
 
