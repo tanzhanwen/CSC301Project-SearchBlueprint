@@ -12,17 +12,15 @@ Zhanwen Tan: I am a 3rd year computer science exchange student from University o
 Shivain Thapar: I am a 3rd year international student at the University of Toronto, specializing in computer science. I’m mostly interested in web development and GUI design. Outside computer science, I’m involved in Sports Business and Marketing and love basketball (Lakers fan for life).
 
 # Introduction of Project
-
-
-
+[Choosing The Project](Choosing-the-project.md)
 # Personas
-
+[Personas](Persona.md)
 # User Stories
 [User Stories Doc](Phase1/user_stories.md)
 # MVP
-
+[MVP](MVP.md)
 # Release and Iteration Planning
-
+[Release and Iteration Planning](iteration_planning.md)
 # CRC Cards
 
 #
