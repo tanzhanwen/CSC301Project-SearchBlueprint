@@ -8,7 +8,7 @@
 
 5) As a user, I want to login as a unique user so I can personalize my experience.
 
-6) As a user, I want to favorite my search engine and/or save my progresses so that I can view or use it later.
+6) As a registered user, I want to favorite my search engine and/or save my progresses so that I can view or use it later.
 
 7) As a user, I want the interactive components in the tutorial to be visually distinct (e.g: color-coded).
 
@@ -26,11 +26,11 @@
 
 14) As a developer, I want to create/ choose my own databases for the search engine to index and store so it is more interesting to learn. 
 
-15) As a developer, I want to 
+15) As a non-registered user, I want to register and create new unique identity.
 
-16) As a developer, I want to   
+16) As a beginner developer, I want to see the time that each function takes to finish its operations.
 
-17) As a developer, I want to  
+17) As a developer, I want to 
 
 18) As a developer, I want to  
 
