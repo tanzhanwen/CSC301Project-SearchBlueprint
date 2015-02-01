@@ -16,11 +16,11 @@ Vignesh Ravi: I am a 3rd year computer science student at University of Toronto.
 # Introduction of Project
 [Choosing The Project](Phase1/Choosing-the-project.md)
 # Personas
-[Personas](Persona.md)
+[Personas](Phase1/Persona.md)
 # User Stories
 [User Stories Doc](Phase1/user_stories.md)
 # MVP
-[MVP](MVP.md)
+[MVP](Phase1/MVP.md)
 # Release and Iteration Planning
 [Release and Iteration Planning](Phase1/iteration_planning.md)
 # CRC Cards
