@@ -17,19 +17,19 @@
 **HARD** - Can be implemented, but it might take more than three days.
 
 ####User Stories####
-1) As a beginner developer, I want a simple list of instructions on how to use the tutorial. 
+1) As a beginner developer, I want a simple list of instructions on how to use the tutorial. *( 1 - Easy )* 
 
-2) As a student/ professional developer, I want to compare multiple (at least 2) search engines and their paths.
+2) As a student/ professional developer, I want to compare multiple (at least 2) search engines and their paths. *( 2 - Hard )*
 
-3) As a beginner/ student developer, I want to know the skeletal concept of entire search engine operations. (web crawer, indexing, etc).
+3) As a beginner/ student developer, I want to know the skeletal concept of entire search engine operations. (web crawer, indexing, etc). *( 1 - Medium )*
 
-4) As a beginner developer I would like an interactive glossary of computer jargons while going through the interactive tutorials so that I can get a clearer understanding of what I am doing. (possible API).
+4) As a beginner developer I would like an interactive glossary of computer jargons while going through the interactive tutorials so that I can get a clearer understanding of what I am doing. (possible API). *( 2 - Medium )*
 
-5) As a user, I want to login as a unique user so I can personalize my experience.
+5) As a user, I want to login as a unique user so I can personalize my experience. *( 3 - Easy )*
 
-6) As a registered user, I want to favorite my search engine and/or save my progresses so that I can view or use it later.
+6) As a registered user, I want to favorite my search engine and/or save my progresses so that I can view or use it later. *( 3 - Medium )*
 
-7) As a user, I want the interactive components in the tutorial to be visually distinct (e.g: color-coded).
+7) As a user, I want the interactive components in the tutorial to be visually distinct (e.g: color-coded). *( 1 - Medium )*
 
 8) As a beginner/ student developer, I want to choose between high to low viewpoint of the search engine path.
 
