@@ -30,9 +30,9 @@
 
 16) As a beginner developer, I want to see the time that each function takes to finish its operations.
 
-17) As a developer, I want to 
+17) As a developer, I want to know the current iterative progress of the search engine functions like with current progress highlighted.
 
-18) As a developer, I want to  
+18) As a developer, I want high level descriptions of each function as a popup box when information box is clicked 
 
 19) As a user, I want to have a save point in the tutorial so that I can come back to it later.
 
