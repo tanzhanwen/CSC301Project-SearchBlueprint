@@ -1,6 +1,6 @@
 #### Release and Iteration Planning for Phase 1 ####
 
-User stories we plan to implement for our first release:
+User stories/features we plan to implement for our first release:
 * As a beginner developer, I want a simple list of instructions on how to use the tutorial. **(1)**
 * As a beginner/student developer, I want to know the skeletal concept of entire search engine operations. (web crawler, indexing, etc). **(3)**
 * As a beginner developer I would like an interactive glossary of computer jargons while going through the interactive tutorials so that I can get a clearer understanding of what I am doing. (possible API). **(4)**
@@ -13,7 +13,6 @@ User stories we plan to implement for our first release:
 * As a developer, I want to take out or put in components to see the search engine operations with or without the functions, to see how much impact it has on the overall operations. **(13)**
 
 Stories planned for the first iteration:
-* One
-* Two
-* Three
-* ...
+* As a beginner developer, I want a simple list of instructions on how to use the tutorial. **(1)**
+* As a beginner/student developer, I want to know the skeletal concept of entire search engine operations. (web crawler, indexing, etc). **(3)**
+* (We just want to implement the first steps of the project, starting from the GUI and the most simple and basic features, so that we have our first foundation.)
