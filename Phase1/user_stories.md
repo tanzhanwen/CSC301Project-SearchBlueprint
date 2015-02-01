@@ -10,11 +10,11 @@
 
 **Difficulty**
 
-**EASY** - Can be implemented in less than a day.
+* **EASY** - Can be implemented in less than a day.
 
-**MEDIUM** - Can be implemented within 3 days.
+* **MEDIUM** - Can be implemented within 3 days.
 
-**HARD** - Can be implemented, but it might take more than three days.
+* **HARD** - Can be implemented, but it might take more than three days.
 
 ####User Stories####
 1. As a beginner developer, I want a simple list of instructions on how to use the tutorial. *( 1 - Easy )* 
