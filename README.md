@@ -18,7 +18,7 @@ Vignesh Ravi: I am a 3rd year computer science student at University of Toronto.
 ## Personas
 [Personas](Phase1/Persona.md)
 ## User Stories
-[User Stories Doc](Phase1/user_stories.md)
+[User Stories](Phase1/user_stories.md)
 ## MVP
 [MVP](Phase1/MVP.md)
 ## Release and Iteration Planning
