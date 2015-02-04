@@ -1,4 +1,4 @@
-﻿# Project-Repo
+﻿# Project, Phase 1 - Planning
 ## Introducing the team
 [Group photo](Phase1/group_photo.jpg)
 
