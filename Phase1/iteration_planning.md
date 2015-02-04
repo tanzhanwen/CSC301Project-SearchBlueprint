@@ -15,4 +15,4 @@ User stories/features we plan to implement for our first release:
 Stories planned for the first iteration:
 * As a beginner developer, I want a simple list of instructions on how to use the tutorial. **(1)**
 * As a beginner/student developer, I want to know the skeletal concept of entire search engine operations. (web crawler, indexing, etc). **(3)**
-* (We just want to implement the first steps of the project, starting from the GUI and the most simple and basic features, so that we have our first foundation.)
+* (We just want to implement the first steps of the project, starting from the GUI and the most simple and basic features, so that we have our initial foundation which we will later build on.)
