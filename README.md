@@ -1,5 +1,5 @@
 ﻿# Project-Repo
-# Short Bio Section
+## Short Bio Section
 
 Sangdong Kim: I am a 3rd year computer science student at University of Toronto. During my spare time I like to play computer games, play sports or sometimes play music with guitar. I am interested in creating a new game or developing a software in the future.
 
@@ -13,17 +13,17 @@ Shivain Thapar: I am a 3rd year international student at the University of Toron
 
 Vignesh Ravi: I am a 3rd year computer science student at University of Toronto. I enjoy programming and in my spare time, I usually work on side projects such as games and mobile apps. I also have a lot of interest for music and I play violin. My other hobbies include watching movies and reading books. 
 
-# Introduction of Project
+## Introduction of Project
 [Choosing The Project](Phase1/Choosing-the-project.md)
-# Personas
+## Personas
 [Personas](Phase1/Persona.md)
-# User Stories
+## User Stories
 [User Stories Doc](Phase1/user_stories.md)
-# MVP
+## MVP
 [MVP](Phase1/MVP.md)
-# Release and Iteration Planning
+## Release and Iteration Planning
 [Release and Iteration Planning](Phase1/iteration_planning.md)
-# CRC Cards
+## CRC Cards
 [CRC Cards PDF](Phase1/crc_cards.pdf)
 #
 
