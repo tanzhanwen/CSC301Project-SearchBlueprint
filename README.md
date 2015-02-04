@@ -1,6 +1,7 @@
 ﻿# Project-Repo
 ## Introducing the team
 [Group photo](Phase1/group_photo.jpg)
+
 [Member Bio](Phase1/bio.md)
 
 ## Short Bio Section
