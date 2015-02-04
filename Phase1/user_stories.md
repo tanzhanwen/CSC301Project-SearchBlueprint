@@ -33,11 +33,11 @@
 
 8. As a beginner/ student developer, I want to choose between high to low viewpoint of the search engine path. *( 1 - Hard )*
 
-9. As a experienced developer, I would like to see the iterative progress of the code path so I would know how the search engine functions and logic from code perspective. *( 2 - Hard )*
+9. As an experienced developer, I would like to see the iterative progress of the code path so I would know how the search engine functions and logic from code perspective. *( 2 - Hard )*
 
-10. As a developer, I want to stop/ pause tutorials to inspect the code or operations so that I can inspect and predict the code for learning purposes. *( 3 - Hard )*
+10. As a developer, I want to stop/pause tutorials to inspect the code or operations so that I can inspect and predict the code for learning purposes. *( 3 - Hard )*
 
-11. As a professional developer, I want the options to skip to particular operations because I might be interested in specific aspects of the search engine. *( 3 - Hard )*
+11. As an experienced developer, I want the options to skip to particular operations because I might be interested in specific aspects of the search engine. *( 3 - Hard )*
 
 12. As a developer, I want to fast forward/rewind tutorials to repeat difficult operations to help me understand the operations better. *(2 - Medium)*
 
@@ -56,3 +56,5 @@
 19. As a user, I want to have a save point in the tutorial so that I can come back to it later. *( 2 - Medium )*
 
 20. As a user, I want to have a clean and simple interface that is easy to use and understand without using the written instructions much. *( 1 - Hard )*
+
+
