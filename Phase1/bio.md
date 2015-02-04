@@ -4,7 +4,7 @@
 
 **Ryan Kam**: I am a 3rd year Computer Science specialist student at the University of Toronto. I can speak English, Cantonese, Mandarin and Japanese. I am interested in Game design and Android App development. I also enjoy PC gaming, soccer and snowboarding. As for working experience, I have worked in a radio station in Hong Kong and I have learned a lot, such as effective communications and database management. I am looking forward to take on a software development intern position and further enhance myself.
 
-**Zhanwen Tan**: I am a 3rd year computer science exchange student from University of Hong Kong and I will study here during the winter semester. I major in computer science and minor in finance. 
+**Zhanwen Tan**: I am a 3rd year computer science exchange student from University of Hong Kong and I study here during the winter semester. Meanwhile, I also minor in finance because I want to explore something different. I am interested in algorithm design and artificial intelligence because I love logics and arithmetics. I was the technical secretary in Computer Society, HKUSU and I made several posters and videos for promotion purposes. I was also in charge of a game competition in my home institution. In my spare time, I like reading novels, singing, and my favorite sports is swimming. I want to make more friends with the students here during my exchange period.
 
 **Shivain Thapar**: I am a 3rd year international student at the University of Toronto, specializing in computer science. I’m mostly interested in web development and GUI design. Outside computer science, I’m involved in Sports Business and Marketing and love basketball (Lakers fan for life).
 
