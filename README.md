@@ -24,6 +24,6 @@ Vignesh Ravi: I am a 3rd year computer science student at University of Toronto.
 # Release and Iteration Planning
 [Release and Iteration Planning](Phase1/iteration_planning.md)
 # CRC Cards
-
+[CRC Cards PDF](Phase1/crc_cards.pdf)
 #
 
