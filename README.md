@@ -1,7 +1,7 @@
 ﻿# Project-Repo
 # Short Bio Section
 
-Sangdong Kim: I am a 3rd year computer science student at University of Toronto.
+Sangdong Kim: I am a 3rd year computer science student at University of Toronto. During my spare time I like to play computer games, play sports or sometimes play music with guitar. I am interested in creating a new game or developing a software in the future.
 
 Tom Choi: I am 4th year Computer Science and English major Student at University of Toronto and focusing on Web Development and GUI designs. I have two years of professional and volunteer experience as a programmer and web developer and have gone through several full software development cycles. 
 
