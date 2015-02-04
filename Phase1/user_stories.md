@@ -31,7 +31,7 @@
 
 7. As a user, I want the interactive components in the tutorial to be visually distinct (e.g: color-coded). *( 1 - Medium )*
 
-8. As a beginner/ student developer, I want to choose between high to low viewpoint of the search engine path. *( 1 - Hard )*
+8. As a beginner/student developer, I want to choose between high to low viewpoint of the search engine path. *( 1 - Hard )*
 
 9. As an experienced developer, I would like to see the iterative progress of the code path so I would know how the search engine functions and logic from code perspective. *( 2 - Hard )*
 
