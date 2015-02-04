@@ -1,4 +1,7 @@
 ﻿# Project-Repo
+## Introducing the team
+[Group photo](Phase1/group_photo.jpg)
+
 ## Short Bio Section
 
 Sangdong Kim: I am a 3rd year computer science student at University of Toronto. During my spare time I like to play computer games, play sports or sometimes play music with guitar. I am interested in creating a new game or developing a software in the future.
