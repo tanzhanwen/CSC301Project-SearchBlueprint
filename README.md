@@ -15,5 +15,7 @@
 [Release and Iteration Planning](Phase1/iteration_planning.md)
 ## CRC Cards
 [CRC Cards PDF](Phase1/crc_cards.pdf)
+## Mockup
+[Mockup image](Phase1/mockup.png)
 #
 
