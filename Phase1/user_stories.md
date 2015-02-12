@@ -39,7 +39,7 @@
 
 11. As an experienced developer, I want the options to skip to particular operations because I might be interested in specific aspects of the search engine. *( 3 - Hard )*
 
-12. As a developer, I want to fast forward/rewind tutorials to repeat difficult operations to help me understand the operations better. *(2 - Medium)*
+12. As a developer, I want to fast forward tutorials to skip the materials that I already understand. *(2 - Medium)*
 
 13. As a developer, I want to take out or put in components to see the search engine operations with or without the functions, to see how much impact it has on the overall operations. *( 3 - Hard )*
 
@@ -57,4 +57,4 @@
 
 20. As a user, I want to have a clean and simple interface that is easy to use and understand without using the written instructions much. *( 1 - Hard )*
 
-
+21. As a user, I want to rewind the tutorial to review any difficult operations so I can me understand the operations better. *(2 - Medium)*
