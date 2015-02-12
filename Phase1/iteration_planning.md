@@ -2,11 +2,13 @@
 
 **User stories/features we plan to implement for our first release:**
 * As a beginner developer, I want a simple list of instructions on how to use the tutorial. **(1)**
-* As a beginner/student developer, I want to know the skeletal concept of entire search engine operations. (web crawler, indexing, etc). **(3)**
+* As a beginner/student developer, I want to briefly know how search engine finds the websites( new and old on the internet) - webcrawler(i.e: Nutch and Hetrix, scrappy) ( 1 - Medium ) **(3)**
 * As a beginner developer I would like an interactive glossary of computer jargons while going through the interactive tutorials so that I can get a clearer understanding of what I am doing. (possible API). **(4)**
 * As a user, I want the interactive components in the tutorial to be visually distinct (e.g: color-coded). **(7)**
 * As a developer, I want to fast forward tutorials to skip the materials that I already understand. **(12)**
 * As a user, I want to rewind the tutorial to review any difficult operations so I can me understand the operations better. **(21)**
+* As a beginner/student developer, I want to know the general information on how each open source index the webcrawled websites. ( 1 - Medium ) **(22)**
+* As a beginner/student developer, I want to know the importance of relavancy and popularity come into play in modifying indexing and rankings of websites (SEO). ( 1 - Medium ) **(23)**
 
 
 **3 user stories we decided to exclude and why:**
