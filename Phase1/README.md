@@ -1,6 +1,6 @@
 # Project, Phase 1 - Planning
 ## Introducing the team
-[Group photo](Phase1/group_photo.jpg)
+[Group photo](group_photo.jpg)
 
 [Member Bio](Phase1/bio.md)
 ## Introduction of Project
