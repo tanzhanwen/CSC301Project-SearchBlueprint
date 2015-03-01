@@ -1,4 +1,4 @@
-﻿# Project, Phase 1 - Planning
+﻿# Project, Phase 2 - Implementation
 ## Introducing the team
 [Group photo](Phase1/group_photo.jpg)
 
