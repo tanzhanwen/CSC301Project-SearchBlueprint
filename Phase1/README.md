@@ -2,20 +2,20 @@
 ## Introducing the team
 [Group photo](group_photo.jpg)
 
-[Member Bio](Phase1/bio.md)
+[Member Bio](bio.md)
 ## Introduction of Project
-[Choosing The Project](Phase1/Choosing-the-project.md)
+[Choosing The Project](Choosing-the-project.md)
 ## Personas
-[Personas](Phase1/Persona.md)
+[Personas](Persona.md)
 ## User Stories
-[User Stories](Phase1/user_stories.md)
+[User Stories](user_stories.md)
 ## MVP
-[MVP](Phase1/MVP.md)
+[MVP](MVP.md)
 ## Release and Iteration Planning
-[Release and Iteration Planning](Phase1/iteration_planning.md)
+[Release and Iteration Planning](iteration_planning.md)
 ## CRC Cards
-[CRC Cards PDF](Phase1/crc_cards.pdf)
+[CRC Cards PDF](crc_cards.pdf)
 ## Mockup
-[Mockup image](Phase1/mockup.png)
+[Mockup image](mockup.png)
 #
 
