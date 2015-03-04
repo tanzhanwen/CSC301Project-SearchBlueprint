@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link href="/static/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/static/dist/css/flat-ui.css" rel="stylesheet">
+
+<head>
+	<title>Search Blueprint</title>
+</head>
+
+<nav class="navbar navbar-inverse " role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+			<span class="sr-only">Toggle navigation</span>
+		</button>
+		<a class="navbar-brand" href="#">Search Blueprint </a>
+	</div>
+	
+	<div class="collapse navbar-collapse" id="navbar-collapse-01">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">START</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+<!-- /navbar -->
+
+<div class="jumbotron">
+	<div class="container">
+		<h2>
+		The following are your options:
+		</h2>
+		<p>You can choose what to learn, and it makes learning much better by focusing on just one topic. The instructions button will take you to a page that explains how the tutorial works. Definitely go through that first! 
+		</p>
+		
+		<p><a class="btn btn-hg btn-primary" href="{% url 'instruc' %}" role="button">Intructions</a> - How the tutorial works.</p>
+		<p><a class="btn btn-hg btn-primary" href="#" role="button">Crawlers</a> - Web crawlers and their importance to making search possible.</p>
+		<p><a class="btn btn-hg btn-primary" href="#" role="button">Algorithms</a> - Some famous search algorithms and how they compare to each other.</p>
+		<p><a class="btn btn-hg btn-primary" href="#" role="button">Compare</a> - Compare two of the biggest search engines in the world, Google Search by Google and Bing by Micrsoft.</p>
+	</div>
+</div>
+
+</html>

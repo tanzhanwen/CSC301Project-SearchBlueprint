@@ -6,3 +6,9 @@ from django.template import RequestContext
  
 def index(request):
     return render_to_response('home/index.html', context_instance=RequestContext(request))
+
+def start(request):
+    return render_to_response('home/start.html', context_instance=RequestContext(request))
+
+def instruc(request):
+    return render_to_response('home/instruc.html', context_instance=RequestContext(request))
