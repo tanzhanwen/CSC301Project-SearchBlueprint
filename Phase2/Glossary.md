@@ -1,0 +1,128 @@
+Reference: http://www.seobook.com/glossary/
+
+301
+A permanent server redirect - a change of address for a web page found in the htaccess file on apache servers. Also useful for dealing with canonical issues.
+
+404
+Not Found - The server was unable to locate the URL.
+
+Age
+May refer to site age, page age, user account age, and any related historical data. Some search system take these variables into account to determine how much they can trust the person, website or document.
+
+alt text
+A description of a graphic, which usually isn’t displayed to the end user, unless the graphic is undeliverable, or a browser is used that doesn’t display graphics. Alt text is important because search engines can’t tell one picture from another. Alt text is the one place where it is acceptable for the spider to get different content than the human user, but only because the alt text is accessible to the user, and when properly used is an accurate description of the associated picture. Special web browsers for visually challenged people rely on the alt text to make the content of graphics accessible to the users.
+
+anchor text
+The user visible text of a link. Search engines use anchor text to indicate the relevancy of the referring site and of the link to the content on the landing page. Ideally all three will share some keywords in common.
+
+authority (trust, link juice, Google juice)
+The amount of trust that a site is credited with for a particular search query. Authority/trust is derived from related incoming links from other trusted sites.
+
+authority site
+A website which has many incoming links from other related expert/hub sites. Because of this simultaneous citation from trusted hubs an authority site usually has high trust, pagerank, and search results placement. Wikipedia, is an example of an authority site.
+
+back link (inbound link)
+Any link into a page or site from any other page or site.
+
+Block Level Analysis
+A method used to break a page down into multiple points on the web graph by breaking its pages down into smaller blocks.
+
+Boolean Search
+Many search engines allow you to perform searches that contain mathematical formulas such as AND, OR, or NOT. By default most search engines include AND with your query, requiring results to be relevant for all the words in your query.
+
+bot (robot, spider, crawler)
+A program which performs a task more or less autonomously. Search engines use bots to find and add web pages to their search indexes. Spammers often use bots to “scrape” content for the purpose of plagiarizing it for exploitation by the Spammer.
+
+Breadcrumb Navigation
+Navigational technique used to help search engines and website users understand the relationship between pages.
+Example breadcrumb navigation: Home > SEO Tools > SEO for Firefox
+
+Cache
+Copy of a web page stored by a search engine. When you search the web you are not actively searching the whole web, but are searching files in the search engine index.
+Some search engines provide links to cached versions of pages in their search results, and allow you to strip some of the formatting from cached copies of pages.
+
+Cloaking
+Displaying different content to search engines and searchers. Depending on the intent of the display discrepancy and the strength of the brand of the person / company cloaking it may be considered reasonable or it may get a site banned from a search engine.
+
+Clustering
+May refer to a technique which allows search engines to group hubs and authorities on a specific topic together to further enhance their value by showing their relationships.
+
+Conceptual Links
+Links which search engines attempt to understand beyond just the words in them. Some rather advanced search engines are attempting to find out the concept links versus just matching the words of the text to that specific word set. Some search algorithms may even look at co-citation and words near the link instead of just focusing on anchor text.
+
+Concept Search
+A search which attempts to conceptually match results with the query, not necessarily with those words, rather their concept.
+
+Crawler (bot, spider)
+A program which moves through the worldwide web or a website by way of the link structure to gather data.
+
+Crawl Depth
+How deeply a website is crawled and indexed.
+
+Crawl Frequency
+How frequently a website is crawled.
+
+Duplicate Content
+Content which is duplicate or near duplicate in nature.
+
+Fuzzy Search
+Search which will find matching terms when terms are misspelled (or fuzzy). Similar to Stemming technology.
+
+hub (expert page)
+A trusted page with high quality content that links out to related pages.
+
+Index
+Noun - a database of WebPages and their content used by the search engines.
+Verb - to add a web page to a search engine index.
+
+Keyword
+A word or phrase which implies a certain mindset or demand that targeted prospects are likely to search for.
+
+Keyword Density
+An old measure of search engine relevancy based on how prominent keywords appeared within the content of a page.
+
+LSI
+Latent Semantic Indexing is a way for search systems to mathematically understanding and representing language based on the similarity of pages and keyword co-occurance. A relevant result may not even have the search term in it. It may be returned based solely on the fact that it contains many similar words to those appearing in relevant pages which contain the search words.
+
+PageRank
+A logarithmic scale based on link equity which estimates the importance of web documents.
+The PageRank formula is:
+PR(A) = (1-d) + d (PR(T1)/C(T1) + ... + PR(Tn)/C(Tn))
+In text: for any given page A the PageRank PR(A) is equal to the sum of the parsed partial PageRank given from each page pointing at it multiplied by the dampening factor plus one minus the dampening factor.
+
+Precision
+The ability of a search engine to list results that satisfy the query, usually measured in percentage.
+Reciprocal link (link exchange, link partner)
+Two sites which link to each other. Search engines usually don’t see these as high value links, because of the reciprocal and potentially incestuous nature.
+
+Query
+The actual "search string" a searcher enters into a search engine.
+
+Relevancy
+A measure of how useful searchers find search results. 
+
+Robots.txt
+A file which sits in the root of a site and tells search engines which files not to crawl. Some search engines will still list your URLs as URL only listings even if you block them using a robots.txt file.
+
+Search Engine
+A tool or device used to find relevant information. Search engines consist of a spider, index, relevancy algorithms and search results.
+
+SERP
+Search Engine Results Page is the page on which the search engines show the results for a search query.
+
+Spider
+Search engine crawlers which search or "spider" the web for pages to include in the index.
+Many non-traditional search companies have different spiders which perform other applications. For example, TurnItInBot searches for plagiarism. Spiders should obey the robots.txt protocol.
+
+
+Stemming
+Using the stem of a word to help satisfy search relevancy requirements.
+EX: searching for swimming can return results which contain swim. This usually enhances the quality of search results due to the extreme diversity of word used in, and their application in the English language.
+
+Stop Words
+Common words (ex: a, to, and, is ...) which add little relevancy to a search query, and are thus are removed from the search query prior to finding relevant search results.
+
+Vertical Search
+A search service which is focused on a particular field, a particular type of information, or a particular information format.
+Example: Business.com
+
