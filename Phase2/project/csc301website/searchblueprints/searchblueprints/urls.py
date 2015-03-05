@@ -13,4 +13,6 @@ urlpatterns = patterns('',
                       name='start'),
     url(r'^instruc/', TemplateView.as_view(template_name='instruc.html'),
                       name='instruc'),
+    url(r'^howitworks/', TemplateView.as_view(template_name='howitworks.html'),
+                      name='howitworks'),
 )
