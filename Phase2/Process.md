@@ -6,6 +6,6 @@ forth meeting on March 4th
 
 
 **Summary of scrums meetings**
-Outline says "A good format would be a list, specifying the highlights of each member's update (each highlights should be 1­3 sentences long)." so I'm guessing we're gonna do this part by listing all the names and what we did?
+Outline says "A good format would be a list, specifying the highlights of each member's update (each highlights should be 1-3 sentences long)." so I'm guessing we're gonna do this part by listing all the names and what we did?
 
 **GitHub issue management system**
