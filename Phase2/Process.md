@@ -109,6 +109,13 @@ Feb 9th/tutorial room
 Feb 13th/ Facebook Group (Online)
 
 #### Highlights:
+- Tom: Created a few new user stories from breaking down one of the problematic user stories. Also started researching which framework the group should use.
+- Shivain: Started researching which framework the group should use.
+- Ryan: Created a few new user stories from breaking down one of the problematic user stories. Also started researching which framework the group should use.
+- Francis: Started researching which framework the group should use.
+- Sangdong: Started researching which framework the group should use.
+- Vignesh: Started researching which framework the group should use.
+
 #### Date/ Location:
 #### Highlights:
 #### Date/ Location:
