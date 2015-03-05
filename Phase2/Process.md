@@ -169,7 +169,7 @@ March 3rd/ Facebook Group (Online)
 #### Date/ Location:
 March 4th/ BA3200
 #### Highlights:
-- Tom: Implemented Haystack into backend
+- Tom: Integrated Haystack into backend
 - Shivain: Worked on created weblinks for the tutorial site
 - Ryan: Completed glossary. Started to work on process.md
 - Francis: Successfully built a connection between web crawler and Postgre database. Started implementing it into backend
