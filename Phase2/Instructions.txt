@@ -1,0 +1,7 @@
+Instrucitons
+
+Crawlers - In the crawlers section, you will be able to learn how search engines finds all the websites. You can learn about how a web crawler fucntions by looking at some of the codes for a simple webcrawler.
+
+Algorithms - 
+
+Compare - 
