@@ -12,3 +12,6 @@ def start(request):
 
 def instruc(request):
     return render_to_response('home/instruc.html', context_instance=RequestContext(request))
+    
+def howitworks(request):
+    return render_to_response('home/howitworks.html', context_instance=RequestContext(request))
