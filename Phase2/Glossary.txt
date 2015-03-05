@@ -1,5 +1,3 @@
-Reference: http://www.seobook.com/glossary/
-
 301
 A permanent server redirect - a change of address for a web page found in the htaccess file on apache servers. Also useful for dealing with canonical issues.
 
