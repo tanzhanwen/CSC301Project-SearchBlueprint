@@ -127,13 +127,16 @@ Feb 16th/ Facebook Group (Online)
  
 
 #### Date/ Location:
+Feb 23/ Tutorial room & Facebook Group (Online)
 #### Highlights:
-- Tom: .
-- Shivain: .
-- Ryan: .
-- Francis: .
-- Sangdong: .
-- Vignesh: .
+- Tom: Volunteered for the backend team. Installed Django and started working on task 3
+- Shivain: Volunteered for the frontend team. Installed Django and started working on task 1
+- Ryan: Volunteered for the frontend team. Installed Django and still getting familiar with Django
+- Francis: Volunteered for the backend team. Continued to resaerch for Django and database information
+- Sangdong: Volunteered for the frontend team. Continued to reaserch for Django and webpage design
+- Vignesh: Volunteered for the backend team. Installed Django and started working on task 3
+ 
+
 #### Date/ Location:
 #### Highlights:
 - Tom: .
