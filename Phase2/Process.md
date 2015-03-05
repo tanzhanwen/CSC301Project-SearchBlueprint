@@ -1,6 +1,6 @@
 # Agile Development Process
 **Summary of planning and review meetings for sprints**
-Our first meeting for phase 1 occured on Feburary 16th during the tutorial, where we just submitted 'phase 0' and waiting for TA's comments for improvement. We discussed how the user stories can be improved by further breaking some of the user stories down into more specific stories, which can help our team to have clearer objectives. 
+Our first meeting for phase 1 occurred on February 16th during the tutorial, where we just submitted 'phase 0' and waiting for TA's comments for improvement. We discussed how the user stories can be improved by further breaking some of the user stories down into more specific stories, which can help our team to have clearer objectives. 
 
 ## Sprint #1 (Week 1)
 ###Planning Meeting
@@ -12,7 +12,7 @@ Feb 9th/ tutorial Room
 
 - Received a suggestion by the TA to look into Flask as a possible alternative to Django as learning a new frame work in a short 
 amount of time can be challenging for a group
-- Reviewed the User Stories and found some stories that was too large and requires further breaking the stories into more managable pieces
+- Reviewed the User Stories and found some stories that was too large and requires further breaking the stories into more manageable pieces
 - Discussed with TA on potential substories that can be created from larger stories.
 
 ###Review Meeting:
@@ -55,14 +55,14 @@ Feb 23rd/ tutorial Room
 
 ####Highlights:
 
-- Still struggling abit on the Django, not progressing as far as we had hoped along with midterm test week forced a slow
+- Still struggling a bit on the Django, not progressing as far as we had hoped along with midterm test week forced a slow
 down in the project's progress.
 - Reported progress to TA'
 
 ###Review Meeting:
 ####Date/ Location: 
 
-Feb 29th/ BA3200
+March 1st/ BA3200
 
 ####Highlights:
 - One of the group members had a hard time installing new python due to encoding issues
@@ -75,9 +75,8 @@ forth meeting on March 4th
 March 1st/ Facebook Group (Online)
 
 ####Highlights:
--Started to implement search engines to our code for the backend
--Made a slight design changes to have a onepage brief overview page to describe the entire search process like the google Search
-engine tutorial site.
+- Started to implement search engines to our code for the backend
+- Made a slight design changes to have a onepage brief overview page to describe the entire search process like the google Search engine tutorial site.
 
 
 ###Review Meeting:
@@ -132,19 +131,40 @@ Feb 23/ Tutorial room & Facebook Group (Online)
 - Tom: Volunteered for the backend team. Installed Django and started working on task 3
 - Shivain: Volunteered for the frontend team. Installed Django and started working on task 1
 - Ryan: Volunteered for the frontend team. Installed Django and still getting familiar with Django
-- Francis: Volunteered for the backend team. Continued to resaerch for Django and database information
-- Sangdong: Volunteered for the frontend team. Continued to reaserch for Django and webpage design
+- Francis: Volunteered for the backend team. Continued to research for Django and database information
+- Sangdong: Volunteered for the frontend team. Continued to research for Django and webpage design
 - Vignesh: Volunteered for the backend team. Installed Django and started working on task 3
  
 
 #### Date/ Location:
+March 1st/ BA3200 & Facebook Group (Online)
 #### Highlights:
-- Tom: .
-- Shivain: .
-- Ryan: .
-- Francis: .
-- Sangdong: .
-- Vignesh: .
+- Tom: Helped out a member with installing the new python. Worked on implementing database into backend
+- Shivain: Worked on creating a more detailed mockup.
+- Ryan: Helped out a member with installing the new python. Worked on creating a more detailed mockup.
+- Francis: Installed python and continued to research for Django and database information
+- Sangdong: Installed Django and continued to research for webpage design
+- Vignesh: Created a dummy landing page
+
+#### Date/ Location:
+March 2nd/ Facebook Group (Online)
+#### Highlights:
+- Tom: Continued to work on implementing database into backend
+- Shivain: Worked on creating landing page base on mockup
+- Ryan: Started working on the glossary for database
+- Francis: Started to work on building a connection between web crawler and Postgre database
+- Sangdong: Started to work on creating other webpages for the tutorial
+- Vignesh: Helped with implementing database into backend
+
+#### Date/ Location:
+March 3rd/ Facebook Group (Online)
+#### Highlights:
+- Tom: Continued to work on implementing database into backend
+- Shivain: Completed new landing page
+- Ryan: Continued to work on glossary
+- Francis: Continued to work on building a connection between web crawler and Postgre database
+- Sangdong: Continued to work on creating webpages
+- Vignesh: Continued to work on implementing database
 
 **Description of how you used GitHub issue management system (e.g. naming conventions, labels, team's conventions, etc.)**
 We would each create our own private branch and would do a pull request with user story that it solved. 
@@ -160,7 +180,7 @@ to just Github to manage all of our project needs.
 **Description of any other major decisions/conventions you may have made/used during the process, and why.**
 - We will vote on a Scrum Master by end of the week, as we learned the importance of having a leader to keep everyone on 
 schedule and enforce constant pace on the progress of the project.
-- We decided to just branch the master instead of forking as it creates unnecesary confusing among group memebers.
-- We decided to not use more popular web crawler as it is supported upto 2.7. We can try to user multiple python versions but
+- We decided to just branch the master instead of forking as it creates unnecessary confusing among group members.
+- We decided to not use more popular web crawler as it is supported up to 2.7. We can try to user multiple python versions but
 this cannot be implemented in the server; so it might be waste of time.
-- Decided to make user stories into issues to be tracked in Github.
+- Decided to make user stories into issues to be tracked in GitHub.
