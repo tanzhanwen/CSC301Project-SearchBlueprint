@@ -92,8 +92,21 @@ March 4th/ BA3200
 ##"Daily" Scrum meetings Summary
 #### Date/ Location:
 
+Feb 9th/tutorial room
+
 #### Highlights:
+-Tom: Phase 1 contributions - contributed mostly on users stories, iteration plannings.
+-Shivain: Phase 1 contributions - Worked on users stories and iteration plannings, as well as proofread most of the documents for phase 1.
+-Ryan: Phase 1 contributions - Contributed mostly on MVP and iteration plannings.
+-Francis: Phase 1 contributions - Contributed mostly on Choosing the project.
+-Sangdong: Phase 1 contributions - Contributed mostly on personas.
+-Vignesh: Phase 1 contributions - Contributed mostly on iteration plannings, crc cards and mockups.
+
+
 #### Date/ Location:
+
+Feb 13th/ Facebook Group (Online)
+
 #### Highlights:
 #### Date/ Location:
 #### Highlights:
