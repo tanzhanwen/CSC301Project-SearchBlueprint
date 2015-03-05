@@ -181,9 +181,9 @@ March 4th/ BA3200
 #### Date/ Location:
 March 5th/ Facebook Group (Online)
 #### Highlights:
-- Tom: Completed process.md. Made Glossary.txt into json seed.
+- Tom: Completed process.md and instructions.txt. Made Glossary.txt into json seed
 - Shivain: Completed instructions page on Search Blueprints
-- Ryan: Completed process.md, product.md
+- Ryan: Completed process.md, product.md and instrucitons.txt
 - Francis: Successfully implemented the webcrawler into backend
 - Sangdong: Completed the html file for a new webpage
 - Vignesh: Absent
