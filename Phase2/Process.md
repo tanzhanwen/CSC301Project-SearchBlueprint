@@ -1,6 +1,6 @@
 # Agile Development Process
 **Summary of planning and review meetings for sprints**
-Our first meeting for phase 1 occurred on February 16th during the tutorial, where we just submitted 'phase 0' and waiting for TA's comments for improvement. We discussed how the user stories can be improved by further breaking some of the user stories down into more specific stories, which can help our team to have clearer objectives. 
+Our first meeting for phase 1 took place on February 16th during our weekly tutorial, where we just submitted 'Phase 0' and the TA gave us suggestions to improve our project. We discussed how the user stories can be improved by further breaking some of the user stories down into more specific stories, which can help our team to have clearer objectives. 
 
 ## Sprint #1 (Week 1)
 ###Planning Meeting
@@ -10,10 +10,10 @@ Feb 9th/ tutorial Room
 
 ####Highlights:
 
-- Received a suggestion by the TA to look into Flask as a possible alternative to Django as learning a new frame work in a short 
-amount of time can be challenging for a group
-- Reviewed the User Stories and found some stories that was too large and requires further breaking the stories into more manageable pieces
-- Discussed with TA on potential substories that can be created from larger stories.
+- Received a suggestion by the TA to look into Flask as a possible alternative to Django as learning a new frame work in a short amount of time can be challenging for a group
+- TA gave us a few tips on how to work as a group, especially while coding
+- Reviewed the User Stories and found that some stories were too large and required further breaking down into more manageable and focused pieces
+- Discussed with TA on potential substories that can be created from larger stories
 
 ###Review Meeting:
 ####Date/ Location: 
@@ -21,8 +21,8 @@ amount of time can be challenging for a group
 Feb 13th/ Facebook Group (Online)
 
 ####Highlights:
-- Did a group review of the user stories and submitted to TA.
-- Confirmation received from TA that the new user stories are OK to proceed.
+- Did a group review of the user stories and submitted them to the TA.
+- Confirmation received from the TA that the new user stories are OK and we can proceed with our proposed.
 - Tasked all members to research the difference between Flask and Django and vote on which one to use by Monday.
 
 ## Sprint #2 (Week 2)
@@ -44,9 +44,9 @@ Feb 16th/ Facebook Group (Online)
 Feb 23th/ Facebook Group (Online)
 
 ####Highlights:
-- Decided to divide the team into backend and front end team where the front end are tasked with most of the Phase 1
-and back-end people are tasked with task 3 ( large time required) aspect
-- Planned to meet in couple of days with some coding done for their respective positions.
+- Decided to divide the team into back-end and front-end team
+- Both teams given their tasks and goals for Phase 1 and 2
+- Planned to meet in couple of days with some coding done for their respective positions
 
 ## Sprint #3 (Week 3)
 ####Date/ Location: 
@@ -66,7 +66,7 @@ March 1st/ BA3200
 
 ####Highlights:
 - One of the group members had a hard time installing new python due to encoding issues
-- Created more detailed design mockups for the website, made some dummy pages.
+- Created more detailed design mockups for the website, made some dummy pages and views.
 
 forth meeting on March 4th
 ## Sprint #4 (Week 4)
@@ -87,6 +87,7 @@ March 4th/ BA3200
 ####Highlights:
 - Almost finished most of user stories for Phase1
 - Integrated HayStack, and an open source simple webcrawler to the Database(required for phase2)
+- Still need to figure out how exactly back and front end interact
 
 ##"Daily" Scrum meetings Summary
 #### Date/ Location:
@@ -149,18 +150,18 @@ March 1st/ BA3200 & Facebook Group (Online)
 #### Date/ Location:
 March 2nd/ Facebook Group (Online)
 #### Highlights:
-- Tom: Continued to work on implementing database into backend
-- Shivain: Worked on creating landing page base on mockup
-- Ryan: Started working on the glossary for database
-- Francis: Started to work on building a connection between web crawler and Postgre database
-- Sangdong: Started to work on creating other webpages for the tutorial
-- Vignesh: Helped with implementing database into backend
+- Tom: Continued to work on implementing database into backend.
+- Shivain: Worked on creating landing page base on mockup. Had some trouble with views/templates in Django.
+- Ryan: Started working on the glossary for database.
+- Francis: Started to work on building a connection between web crawler and Postgre database.
+- Sangdong: Started to work on creating other webpages for the tutorial.
+- Vignesh: Helped with implementing database into backend.
 
 #### Date/ Location:
 March 3rd/ Facebook Group (Online)
 #### Highlights:
 - Tom: Continued to work on implementing database into backend
-- Shivain: Completed new landing page
+- Shivain: Completed new landing page and added design files to be used for the rest of the project.
 - Ryan: Continued to work on glossary
 - Francis: Continued to work on building a connection between web crawler and Postgre database
 - Sangdong: Continued to work on creating webpages
@@ -170,7 +171,7 @@ March 3rd/ Facebook Group (Online)
 March 4th/ BA3200
 #### Highlights:
 - Tom: Integrated Haystack into backend
-- Shivain: Worked on created weblinks for the tutorial site
+- Shivain: Worked on created weblinks for the tutorial site, created severaly dummy pages for layout of the site.
 - Ryan: Completed glossary. Started to work on process.md
 - Francis: Successfully built a connection between web crawler and Postgre database. Started implementing it into backend
 - Sangdong: Continued to work on creating webpages
