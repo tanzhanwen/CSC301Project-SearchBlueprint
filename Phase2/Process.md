@@ -166,6 +166,16 @@ March 3rd/ Facebook Group (Online)
 - Sangdong: Continued to work on creating webpages
 - Vignesh: Continued to work on implementing database
 
+#### Date/ Location:
+March 4th/ BA3200
+#### Highlights:
+- Tom: Implemented Haystack into backend
+- Shivain: Worked on created weblinks for the tutorial site
+- Ryan: Completed glossary. Started to work on process.md
+- Francis: Successfully built a connection between web crawler and Postgre database. Started implementing it into backend
+- Sangdong: Continued to work on creating webpages
+- Vignesh: Absent
+
 **Description of how you used GitHub issue management system (e.g. naming conventions, labels, team's conventions, etc.)**
 We would each create our own private branch and would do a pull request with user story that it solved. 
 Feb 3rd: In the future, all of the user stories will be created as an 'issue' and we will create pull requests with issue
@@ -174,8 +184,8 @@ number and brief description of changes made so that we have a way to visually t
 **Description of any other tools (e.g. Project Management/Bug tracking) you have used. **
 We created private Facebook Group to post any updates that would be of interest for the group, as well as a place to post any 
 notifications that affects the project (i.e: completion of subtasks, absence from meeting, third party resources, etc).
-Since github already has issue tracking, branches to manage different version tress, we agreed as a group to stick
-to just Github to manage all of our project needs.
+Since GitHub already has issue tracking, branches to manage different version tress, we agreed as a group to stick
+to just GitHub to manage all of our project needs.
 
 **Description of any other major decisions/conventions you may have made/used during the process, and why.**
 - We will vote on a Scrum Master by end of the week, as we learned the importance of having a leader to keep everyone on 
