@@ -177,6 +177,17 @@ March 4th/ BA3200
 - Sangdong: Continued to work on creating webpages
 - Vignesh: Absent
 
+
+#### Date/ Location:
+March 5th/ Facebook Group (Online)
+#### Highlights:
+- Tom: Completed process.md. Made Glossary.txt into json seed.
+- Shivain: Completed instructions page on Search Blueprints
+- Ryan: Completed process.md, product.md
+- Francis: Successfully implemented the webcrawler into backend
+- Sangdong: Completed the html file for a new webpage
+- Vignesh: Absent
+
 **Description of how you used GitHub issue management system (e.g. naming conventions, labels, team's conventions, etc.)**
 We would each create our own private branch and would do a pull request with user story that it solved. 
 Feb 3rd: In the future, all of the user stories will be created as an 'issue' and we will create pull requests with issue
