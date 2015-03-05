@@ -15,4 +15,5 @@ urlpatterns = patterns('',
                       name='instruc'),
     url(r'^howitworks/', TemplateView.as_view(template_name='howitworks.html'),
                       name='howitworks'),
+     url(r'^search/', include('haystack.urls')),
 )

@@ -36,6 +36,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'searchsample',
+    'whoosh',
+    'haystack',    
     'home',
 )
 
@@ -52,7 +55,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'searchblueprints.urls'
 
 WSGI_APPLICATION = 'searchblueprints.wsgi.application'
-
+WHOOSH_INDEX = os.path.join(BASE_DIR, "whoosh/")
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
@@ -63,7 +66,12 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': WHOOSH_INDEX
+    },
+}
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
