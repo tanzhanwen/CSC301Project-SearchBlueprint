@@ -175,7 +175,7 @@ March 4th/ BA3200
 - Ryan: Completed glossary. Started to work on process.md
 - Francis: Successfully built a connection between web crawler and Postgre database. Started implementing it into backend
 - Sangdong: Continued to work on creating webpages
-- Vignesh: Absent
+- Vignesh: Worked on making elasticsearch compatable with haystack
 
 
 #### Date/ Location:
@@ -183,10 +183,10 @@ March 5th/ Facebook Group (Online)
 #### Highlights:
 - Tom: Completed process.md and instructions.txt. Made Glossary.txt into json seed
 - Shivain: Completed instructions page on Search Blueprints
-- Ryan: Completed process.md, product.md and instrucitons.txt
+- Ryan: Completed process.md, product.md and instructions.txt
 - Francis: Successfully implemented the webcrawler into backend
 - Sangdong: Completed the html file for a new webpage
-- Vignesh: Absent
+- Vignesh: Changed the search engine to Whoosh and created a sample data space.
 
 **Description of how you used GitHub issue management system (e.g. naming conventions, labels, team's conventions, etc.)**
 We would each create our own private branch and would do a pull request with user story that it solved. 
