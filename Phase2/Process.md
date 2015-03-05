@@ -117,11 +117,30 @@ Feb 13th/ Facebook Group (Online)
 - Vignesh: Started researching which framework the group should use.
 
 #### Date/ Location:
+Feb 15th/ Facebook Group (Online)
 #### Highlights:
+- Tom: 
+- Shivain: 
+- Ryan: 
+- Francis: 
+- Sangdong: 
+- Vignesh: 
 #### Date/ Location:
 #### Highlights:
+- Tom: 
+- Shivain: 
+- Ryan: 
+- Francis: 
+- Sangdong: 
+- Vignesh: 
 #### Date/ Location:
 #### Highlights:
+- Tom: 
+- Shivain: 
+- Ryan: 
+- Francis: 
+- Sangdong: 
+- Vignesh: 
 
 **Description of how you used GitHub issue management system (e.g. naming conventions, labels, team's conventions, etc.)**
 We would each create our own private branch and would do a pull request with user story that it solved. 
