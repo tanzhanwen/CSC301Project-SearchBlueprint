@@ -120,6 +120,9 @@ EX: searching for swimming can return results which contain swim. This usually e
 Stop Words
 Common words (ex: a, to, and, is ...) which add little relevancy to a search query, and are thus are removed from the search query prior to finding relevant search results.
 
+URL
+Uniform Resource Locator is a reference to a resource on the Internet
+
 Vertical Search
 A search service which is focused on a particular field, a particular type of information, or a particular information format.
 Example: Business.com
