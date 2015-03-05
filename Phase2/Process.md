@@ -193,7 +193,7 @@ We would each create our own private branch and would do a pull request with use
 Feb 3rd: In the future, all of the user stories will be created as an 'issue' and we will create pull requests with issue
 number and brief description of changes made so that we have a way to visually track our progress.
 
-**Description of any other tools (e.g. Project Management/Bug tracking) you have used. **
+**Description of any other tools (e.g. Project Management/Bug tracking) you have used.**
 We created private Facebook Group to post any updates that would be of interest for the group, as well as a place to post any 
 notifications that affects the project (i.e: completion of subtasks, absence from meeting, third party resources, etc).
 Since GitHub already has issue tracking, branches to manage different version tress, we agreed as a group to stick
