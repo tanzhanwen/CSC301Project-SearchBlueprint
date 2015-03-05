@@ -185,7 +185,7 @@ March 5th/ Facebook Group (Online)
 - Shivain: Completed instructions page on Search Blueprints
 - Ryan: Completed process.md, product.md and instructions.txt
 - Francis: Successfully implemented the webcrawler into backend
-- Sangdong: Completed the html file for a new webpage
+- Sangdong: Completed the html file for a new webpage "How search engine works"
 - Vignesh: Changed the search engine to Whoosh and created a sample data space.
 
 **Description of how you used GitHub issue management system (e.g. naming conventions, labels, team's conventions, etc.)**
