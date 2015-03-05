@@ -28,12 +28,12 @@ Feb 13th/ Facebook Group (Online)
 ## Sprint #2 (Week 2)
 ####Date/ Location: 
 
-Feb 16th/ tutorial Room
+Feb 16th/ Facebook Group (Online)
 
 ####Highlights:
 
-- Decided to Use Django after group vote
-- Gave progress report to TA
+- Group voting on which framework to work with
+- Decided on Django
 - Get familiar with Django within the week and review python as most of us forgot the semantics
 - Choose which user stories that they would like to work on for Phase1 and Phase 2
 
@@ -103,7 +103,6 @@ Feb 9th/tutorial room
 - Vignesh: Phase 1 contributions - Contributed mostly on iteration plannings, crc cards and mockups
 
 
-
 #### Date/ Location:
 
 Feb 13th/ Facebook Group (Online)
@@ -117,30 +116,32 @@ Feb 13th/ Facebook Group (Online)
 - Vignesh: Started researching which framework the group should use.
 
 #### Date/ Location:
-Feb 15th/ Facebook Group (Online)
+Feb 16th/ Facebook Group (Online)
 #### Highlights:
-- Tom: 
-- Shivain: 
-- Ryan: 
-- Francis: 
-- Sangdong: 
-- Vignesh: 
+- Tom: Voted for working with Django, and started researching on how to use Django for the project
+- Shivain: Voted for working with Django, and started researching on how to use Django for the project
+- Ryan: Voted for working with Django, and started researching on how to use Django for the project
+- Francis: Voted for working with Django, and started researching on how to use Django for the project
+- Sangdong: Voted for working with Django, and started researching on how to use Django for the project
+- Vignesh: Voted for working with Django, and started researching on how to use Django for the project
+ 
+
 #### Date/ Location:
 #### Highlights:
-- Tom: 
-- Shivain: 
-- Ryan: 
-- Francis: 
-- Sangdong: 
-- Vignesh: 
+- Tom: .
+- Shivain: .
+- Ryan: .
+- Francis: .
+- Sangdong: .
+- Vignesh: .
 #### Date/ Location:
 #### Highlights:
-- Tom: 
-- Shivain: 
-- Ryan: 
-- Francis: 
-- Sangdong: 
-- Vignesh: 
+- Tom: .
+- Shivain: .
+- Ryan: .
+- Francis: .
+- Sangdong: .
+- Vignesh: .
 
 **Description of how you used GitHub issue management system (e.g. naming conventions, labels, team's conventions, etc.)**
 We would each create our own private branch and would do a pull request with user story that it solved. 
