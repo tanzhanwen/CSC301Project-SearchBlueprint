@@ -18,4 +18,11 @@ urlpatterns = patterns('',
     url(r'^compare/', TemplateView.as_view(template_name='compare.html'),
                       name='compare'),
     url(r'^search/', include('haystack.urls')),
+                      name='howitworks'),
+    url(r'^crawler/', TemplateView.as_view(template_name='crawler.html'),
+                      name='crawler'),
+    url(r'^algorithms/', TemplateView.as_view(template_name='algorithms.html'),
+                      name='algorithms'),
+     url(r'^search/', include('haystack.urls')),
+
 )
