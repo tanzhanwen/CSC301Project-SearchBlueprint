@@ -15,3 +15,6 @@ def instruc(request):
     
 def howitworks(request):
     return render_to_response('home/howitworks.html', context_instance=RequestContext(request))
+
+def compare(request):
+    return render_to_response('home/compare.html', context_instance=RequestContext(request))
