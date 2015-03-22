@@ -15,3 +15,9 @@ def instruc(request):
     
 def howitworks(request):
     return render_to_response('home/howitworks.html', context_instance=RequestContext(request))
+
+def crawler(request):
+    return render_to_response('home/crawler.html', context_instance=RequestContext(request))
+
+def algorithms(request):
+    return render_to_response('home/algorithms.html', context_instance=RequestContext(request))
