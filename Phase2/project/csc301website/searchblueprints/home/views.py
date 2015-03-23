@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+import logging
 # Create your views here.
 from django.shortcuts import render_to_response
 from django.template import RequestContext
@@ -20,7 +20,10 @@ def compare(request):
     return render_to_response('home/compare.html', context_instance=RequestContext(request))
 
 def crawler(request):
+    logger.error("try",request.path)
     return render_to_response('home/crawler.html', context_instance=RequestContext(request))
+
+
 
 def algorithms(request):
     return render_to_response('home/algorithms.html', context_instance=RequestContext(request))
