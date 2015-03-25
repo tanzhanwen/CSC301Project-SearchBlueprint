@@ -1,7 +1,9 @@
-﻿# Project, Phase 2 - Implementation
+﻿# Project, Phase 3 - Final Presentation
 ## Product
-[Product md file](Phase2/Product.md)
+[Product md file](Phase3/Product.md)
 ## Process
-[Process md file](Phase2/Process.md)
+[Process md file](Phase3/Process.md)
+## Architecture
+[Architecture md file](Phase3/Architecture.md)
 #
 
