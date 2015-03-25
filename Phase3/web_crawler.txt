@@ -45,3 +45,18 @@ The behaviour of a Web crawler is the outcome of a combination of policies:
 -re-visit policy: when to check for changes to a webpage
 -politeness policy: how to avoid overloading the website
 -parallelization policy: how to coordinate "distributed web crawlers"
+
+
+Crawlers Identification
+So how do web servers identify web crawlers?
+Crawlers typically identify themselves to a web server by using the User-agent field of an HTTP request.
+Usually the User-agent field contains a URL where the web administrator can find more information about the crawler.
+This is different from Spambots or malicious web crawlers as they are unlikely to place identifying information in the user agent field.
+It is important to have crawlers to identify themselves so the web administrator can contact the owner of the crawler.
+
+
+Crawler traps
+A crawler trap is a set of webpage that causes a web crawler to make an infinite number of requests or even crash (intentioanlly or not)
+Common techniques are:
+-creating indefinitely deep directory structures, such as "http://foo.com/bar/foo/bar/foo/bar/foo/bar/....."
+-documents with session-id's based on required cookies
