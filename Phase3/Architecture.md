@@ -9,6 +9,8 @@
 >Reasons behind making the decision
 
 >Do you still think it is a good decistion?
+
+##Architecture 
     
 As with any project, ours has the two main components, the front end and the back end. The following describe what they are created using, and how they interact with each other.
 
