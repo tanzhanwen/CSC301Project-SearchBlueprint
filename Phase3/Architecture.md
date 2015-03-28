@@ -6,6 +6,6 @@
 
 -One or two most important architecht decisions you have made
 
-  -Reasons behind making the decision
+    -Reasons behind making the decision
 
-  -Do you still think it is a good decistion?
+    -Do you still think it is a good decistion?
