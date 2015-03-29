@@ -34,10 +34,10 @@ def algorithms(request):
 
 def indexing(request):
     return render_to_response('home/indexing.html', context_instance=RequestContext(request))
-def runScript(request):
-    
+def runScript(request,types):
+    print(types)
     if request.method =="POST":
-        a = test_crawler.testCall()
+        a = test_crawler.testCall(types)
         print(list(a.keys()))
         return HttpResponse(a)
     else:

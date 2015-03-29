@@ -26,7 +26,7 @@ urlpatterns = patterns('',
     url(r'^indexing/', 'home.views.indexing',
                       name='indexing'),
     url(r'^search/', include('haystack.urls')),
-    url(r'^runScript/', 'home.views.runScript',name='crawler2'),
+    url(r'^runScript/(?P<types>.*)', 'home.views.runScript',name='crawler2'),
     
 
 )

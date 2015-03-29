@@ -13,8 +13,8 @@ class TestCrawler(Crawler):
         print('GET', doc.status, doc.url)
         self.process_lock.release()
 
-def testCall():
+def testCall(url):
     c = TestCrawler()
     c.set_max_depth(1)
-    c.crawl('http://web.cs.toronto.edu')
+    c.crawl(str(url))
     return c.visited
