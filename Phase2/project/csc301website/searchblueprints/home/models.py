@@ -4,22 +4,20 @@ class Users(models.Model):
     login = models.CharField(max_length=30)
     password = models.CharField(max_length=30)
 class Glossary(models.Model):
-    term = models.CharField(unique = True)
-    definition = models.TextField()
-class DomainName(models.Model):
-	id = models.AutoField(primary_key=True)
-    domain_name = models.TextField(unique = True)
+    term = models.CharField(max_length=50)
+    definition = models.TextField(blank=True)
+class Domain(models.Model):
+    name = models.TextField(blank=True)
 class Address(models.Model):
-	id = models.AutoField(primary_key=True)
-	name = models.TextField
-    url = models.TextField(unique = True)
-    domain = models.ForeignKey
-    error = models.IntegerField
-    old_rank = models.IntegerField
-    new_rank = models.IntegerField
-    key_word = models.TextField
-    description = models.TextField
-    score = models.IntegerField
+    title = models.TextField(blank=True)
+    url = models.TextField(blank=True)
+    domain = models.ForeignKey(Domain)
+    error = models.IntegerField(default=0)
+    old_rank = models.IntegerField(default =0)
+    new_rank = models.IntegerField(default =0)
+    key_word = models.TextField(blank=True)
+    description = models.TextField(blank=True)
+    score = models.IntegerField(default =0)
 
 
 # Create your models here.
