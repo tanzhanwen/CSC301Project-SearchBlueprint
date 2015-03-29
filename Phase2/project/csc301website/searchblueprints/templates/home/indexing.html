@@ -17,7 +17,7 @@
 }</style>
 </head>
 
-<nav class="navbar navbar-inverse " role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
 			<span class="sr-only">Toggle navigation</span>
@@ -27,9 +27,14 @@
 	
 	<div class="collapse navbar-collapse" id="navbar-collapse-01">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Indexing</a></li>
+        <li><a class="" href="{% url 'howitworks' %}" role="button">How Search Engines Work</a></li>
+        <li><a class="" href="{% url 'crawler' %}" role="button">Crawlers</a></li>
+        <li><a class="" href="{% url 'algorithms' %}" role="button">Querying</a></li>
+	<li class="active"><a class="" href="{% url 'indexing' %}" role="button">Indexing</a></li>
+        <li><a class="" href="{% url 'compare' %}" role="button">Compare</a></li>
+        
     </ul>
-  </div>
+  </div><!-- /.navbar-collapse -->
 </nav>
 
 {% include "indexing_tut.html" %}

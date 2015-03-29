@@ -28,7 +28,7 @@ var pageNumber = 0;
 		function navPage(increment)
 		{
 		    var d  = 0;
-		     if(increment && pageNumber<10)
+		     if(increment && pageNumber<11)
 		    {
 		        pageNumber = pageNumber +1; 
 				d = 1;
@@ -57,7 +57,21 @@ var pageNumber = 0;
 			 cr_l3();
 			 
 			 }
-			
+            		if(pageNumber == 7){
+                		cr_l7();
+            		}
+            		if(pageNumber == 8){
+                		cr_l8();
+            		}
+            		if(pageNumber == 9){
+                	cr_l9();
+            		}
+            		if(pageNumber == 10){
+                	cr_l10();
+            		}
+            		if(pageNumber == 11){
+                	cr_l11();
+            		}
 			}
 		    }
 			
