@@ -1,7 +1,7 @@
 """Reporting subsystem for web crawler."""
 
 import time
-import psycopg2
+import sqlite3
 
 class Stats:
     """Record stats of various sorts."""
@@ -20,18 +20,18 @@ class Stats:
 def report(crawler, file=None):
     """connect to db"""
     try:
-        conn = psycopg2.connect("dbname=searchengine user=postgres password=postgres host=localhost")
+        conn = sqlite3.connect('db.sqlite3')
     except:
         print ("I am unable to connect to the database")
     
     cur = conn.cursor()
     prefix = crawler.roots.pop()
-    SQL = "INSERT INTO domainname (domain_name) VALUES (%s);"
+    SQL = "INSERT INTO home_domain (name) VALUES (%s);"
     data = (prefix,)
     cur.execute(SQL, data)
     conn.commit()
     
-    SQL = "SELECT domain_id FROM domainname WHERE domain_name=(%s);"
+    SQL = "SELECT id FROM home_domain WHERE name=(%s);"
     data = (prefix,)
     cur.execute(SQL, data)
     current_id = cur.fetchone()[0]
@@ -51,7 +51,7 @@ def report(crawler, file=None):
         for stat in show:
             url_report(stat, stats, file=file)
             
-            SQL = "INSERT INTO address (address_name,domain_id) VALUES (%s,%s);"
+            SQL = "INSERT INTO home_address (title,domain_id) VALUES (%s,%s);"
             data = (stat.url,current_id,)
             cur.execute(SQL, data)
         conn.commit()
