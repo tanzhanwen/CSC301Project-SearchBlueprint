@@ -95,10 +95,11 @@ def main():
         sys.stderr.flush()
         print('\nInterrupted\n')
     finally:
-        reporting.report(crawler)
+        finalList=reporting.report(crawler)
         crawler.close()
         loop.close()
 
+    return finalList
 
 if __name__ == '__main__':
     main()
