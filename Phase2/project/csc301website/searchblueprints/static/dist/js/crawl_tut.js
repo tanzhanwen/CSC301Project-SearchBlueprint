@@ -204,7 +204,7 @@ var pageNumber = 0;
 			$( "#cr13_5" ).fadeIn( 300 );
 			$.ajax({
 					 type: "POST",
-					url: "/runScript/yay",
+					url: "/runScript/"+$( "#tt").val(),
 					success: function(response){
 					   output = response;
 					   

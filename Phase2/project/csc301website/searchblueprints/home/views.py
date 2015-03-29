@@ -35,7 +35,7 @@ def algorithms(request):
 def indexing(request):
     return render_to_response('home/indexing.html', context_instance=RequestContext(request))
 def runScript(request):
-    print("yay")
+    
     if request.method =="POST":
         a = test_crawler.testCall()
         print(list(a.keys()))
