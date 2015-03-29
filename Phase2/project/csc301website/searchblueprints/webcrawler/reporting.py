@@ -26,12 +26,12 @@ def report(crawler, file=None):
     
     cur = conn.cursor()
     prefix = crawler.roots.pop()
-    SQL = "INSERT INTO home_domain (name) VALUES (%s);"
+    SQL = "INSERT INTO home_domain (name) VALUES (?);"
     data = (prefix,)
     cur.execute(SQL, data)
     conn.commit()
     
-    SQL = "SELECT id FROM home_domain WHERE name=(%s);"
+    SQL = "SELECT id FROM home_domain WHERE name=(?);"
     data = (prefix,)
     cur.execute(SQL, data)
     current_id = cur.fetchone()[0]
@@ -53,7 +53,7 @@ def report(crawler, file=None):
         for stat in show:
             url_report(stat, stats, file=file)
             
-            SQL = "INSERT INTO home_address (title,domain_id) VALUES (%s,%s);"
+            SQL = "INSERT INTO home_address (title,domain_id) VALUES (?,?);"
 
             data = (stat.url,current_id,)
             cur.execute(SQL, data)
