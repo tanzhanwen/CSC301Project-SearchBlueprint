@@ -1,4 +1,4 @@
-#Intro
+##Intro
 
 * A huge part of any good search engine is not to simply return the pages that best match the input query.
 * Instead, it tries to answer the underlying question.
@@ -8,7 +8,7 @@
 * Index design incorporates interdisciplinary concepts from linguistics, cognitive psychology, mathematics, informatics, and computer science.
 
 
-#Implementation
+##Implementation
 
 Crawlers gather information and pagers which is used to create an index, where things can be looked up easily. When you search, at the most basic level, our algorithms look up your search terms in the index to find the appropriate pages. 
 
