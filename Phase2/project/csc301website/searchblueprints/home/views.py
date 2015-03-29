@@ -23,7 +23,8 @@ def crawler(request):
     logger.error("try",request.path)
     return render_to_response('home/crawler.html', context_instance=RequestContext(request))
 
-
-
 def algorithms(request):
     return render_to_response('home/algorithms.html', context_instance=RequestContext(request))
+
+def indexing(request):
+    return render_to_response('home/indexing.html', context_instance=RequestContext(request))

@@ -59,7 +59,7 @@ WHOOSH_INDEX = os.path.join(BASE_DIR, "whoosh/")
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -70,6 +70,14 @@ DATABASES = {
         'HOST': 'localhost',                      # Empty for localhost through domain sockets or           '127.0.0.1' for localhost through TCP.
         'PORT': '',    
     }
+}
+'''
+
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.sqlite3',
+       'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+   }
 }
 HAYSTACK_CONNECTIONS = {
     'default': {
