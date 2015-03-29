@@ -11,8 +11,6 @@ import logging
 import sys
 
 import crawling
-import reporting
-
 
 ARGS = argparse.ArgumentParser(description="Web crawler")
 ARGS.add_argument(
@@ -55,8 +53,22 @@ def fix_url(url):
     if '://' not in url:
         url = 'http://' + url
     return url
-
-
+def crawl(url):
+    loop = asyncio.get_event_loop()
+    crawler = crawling.Crawler(url)
+    loop.run_until_complete(crawler.crawl())  # Crawler gonna crawl.
+    domainList= []
+    domain = crawler.roots.pop()
+    domainList.append(domain)
+    show = list(crawler.done)
+    show.sort(key=lambda _stat: _stat.url)
+    addressList = []
+    for stat in show:
+        addressList.append(stat.url[len(domain):])
+    domainList.append(addressList)
+    print(domainList)
+    crawler.close()
+    loop.close()
 def main():
     """Main program.
 
@@ -66,39 +78,8 @@ def main():
     if not args.roots:
         print('Use --help for command line help')
         return
-
-    levels = [logging.ERROR, logging.WARN, logging.INFO, logging.DEBUG]
-    logging.basicConfig(level=levels[min(args.level, len(levels)-1)])
-
-    if args.iocp:
-        from asyncio.windows_events import ProactorEventLoop
-        loop = ProactorEventLoop()
-        asyncio.set_event_loop(loop)
-    elif args.select:
-        loop = asyncio.SelectorEventLoop()
-        asyncio.set_event_loop(loop)
-    else:
-        loop = asyncio.get_event_loop()
-
-    roots = {fix_url(root) for root in args.roots}
-
-    crawler = crawling.Crawler(roots,
-                               exclude=args.exclude,
-                               strict=args.strict,
-                               max_redirect=args.max_redirect,
-                               max_tries=args.max_tries,
-                               max_tasks=args.max_tasks,
-                               )
-    try:
-        loop.run_until_complete(crawler.crawl())  # Crawler gonna crawl.
-    except KeyboardInterrupt:
-        sys.stderr.flush()
-        print('\nInterrupted\n')
-    finally:
-        reporting.report(crawler)
-        crawler.close()
-        loop.close()
-
+    url = {fix_url(root) for root in args.roots}
+    crawl(url)
 
 if __name__ == '__main__':
     main()
