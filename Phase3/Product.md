@@ -26,3 +26,16 @@ Peter is interested in learning about search engines and came across Search Blue
 2. Press the start button and reach the start page
 3. Click on the Crawlers tab
 4. Start the Crawlers tutorial
+
+From here, Peter can now go through the web crawlers tutorial and learn much more about web crawlers.
+
+##Scenario 2: Learning about algorithms in search engines
+Steven is a freshman in university and would like to learn about the algorithms in a search engine. He may do so by following these steps on Search Blueprint:
+
+1. Go to Search Blueprints home page
+2. Press the start button and reach the start page
+3. Click on "How Search Engines work"
+4. Read through the brief introduction on search engines
+5. Click on Algorithms tab
+
+From here, Steven can examine the basic codes in the Algorithms section and learn about how a search engine functions.
