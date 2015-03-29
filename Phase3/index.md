@@ -1,4 +1,4 @@
-Intro
+#Intro
 
 -A huge part of any good search engine is not to simply return the pages that best match the input query.
 
@@ -9,6 +9,6 @@ Intro
 -Indexing is used to optimize speed and performance in finding relevant documents for a search query.
 
 
-Implementation
+#Implementation
 
 -
