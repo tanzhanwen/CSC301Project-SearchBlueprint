@@ -103,6 +103,57 @@ var pageNumber = 0;
 			$( "#cr3_3" ).delay( 3000 ).fadeIn( 300 );
 
 		}
+		function cr_l7(){
+			
+			$('.hid7').hide();
+			 
+			$( "#cr7_1" ).delay( 1000 ).fadeIn( 300 );
+			$( "#cr7_2" ).delay( 2000 ).fadeIn( 300 );
+			$( "#cr7_3" ).delay( 3000 ).fadeIn( 300 );
+            		$( "#cr7_4" ).delay( 4000 ).fadeIn( 300 );
+
+		}
+		function cr_l8(){
+			
+			$('.hid8').hide();
+			 
+			$( "#cr8_1" ).delay( 1000 ).fadeIn( 300 );
+			$( "#cr8_2" ).delay( 2000 ).fadeIn( 300 );
+			$( "#cr8_3" ).delay( 3000 ).fadeIn( 300 );
+
+		}
+		function cr_l9(){
+			
+			$('.hid9').hide();
+			 
+			$( "#cr9_1" ).delay( 1000 ).fadeIn( 300 );
+			$( "#cr9_2" ).delay( 2000 ).fadeIn( 300 );
+			$( "#cr9_3" ).delay( 3000 ).fadeIn( 300 );
+            		$( "#cr9_4" ).delay( 4000 ).fadeIn( 300 );
+            		$( "#cr9_5" ).delay( 5000 ).fadeIn( 300 );
+
+		}
+		function cr_l10(){
+			
+			$('.hid10').hide();
+			 
+			$( "#cr10_1" ).delay( 1000 ).fadeIn( 300 );
+			$( "#cr10_2" ).delay( 2000 ).fadeIn( 300 );
+			$( "#cr10_3" ).delay( 3000 ).fadeIn( 300 );
+            		$( "#cr10_4" ).delay( 4000 ).fadeIn( 300 );
+            		$( "#cr10_5" ).delay( 5000 ).fadeIn( 300 );
+
+		}
+		function cr_l11(){
+			
+			$('.hid11').hide();
+			 
+			$( "#cr11_1" ).delay( 1000 ).fadeIn( 300 );
+			$( "#cr11_2" ).delay( 2000 ).fadeIn( 300 );
+			$( "#cr11_3" ).delay( 3000 ).fadeIn( 300 );
+            		$( "#cr11_4" ).delay( 4000 ).fadeIn( 300 );
+
+		}
 		function doStuff(){
 			$.ajax({
 					 type: "POST",
