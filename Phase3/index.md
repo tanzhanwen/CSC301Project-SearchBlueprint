@@ -5,9 +5,9 @@
 * Many search engines use complex algorithms to determine what result they should return.
 * Indexing is used to optimize speed and performance in finding relevant documents for a search query.
 * Search engine indexing collects, parses, and stores data to facilitate fast and accurate information retrieval. 
-* Index design incorporates interdisciplinary concepts from linguistics, cognitive psychology, mathematics, informatics, and computer science.
 * Indexing takes place within the search engine's database, after the crawler stores the data to the database.
 * The search engine index provides the result for search queries, and pages that are stored within the search engine index that appear on the search engine results page.
+* Index design incorporates interdisciplinary concepts from linguistics, cognitive psychology, mathematics, informatics, and computer science.
 
 
 
