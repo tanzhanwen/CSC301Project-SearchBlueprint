@@ -21,6 +21,8 @@ urlpatterns = patterns('',
                       name='crawler'),
     url(r'^algorithms/', TemplateView.as_view(template_name='algorithms.html'),
                       name='algorithms'),
+    url(r'^indexing/', TemplateView.as_view(template_name='indexing.html'),
+                      name='indexing'),
     url(r'^search/', include('haystack.urls')),
 
 )
