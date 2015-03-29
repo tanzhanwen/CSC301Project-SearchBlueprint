@@ -9,7 +9,7 @@
 * My weakness as a team member is my lack of confidence. Often times when I need to make a decision I would be too afraid of making up my own mind, and would consult my team, which may cause inconvenience.
 
 
-##magicmamba
+##magicmamba - Shivain Thapar
 
 * My most significant individual contribution - Setting up the front end and creating the initial views/templates. Set up the design on which rest of the project was based. Also contributed for all of the write-ups(.md files)
 * New techniques/issues that I learned - Learned how to use Github better, especially some new branching techniques. Got to know the MVC design pattern more, and how views and templates interact with the backend. Can use Django now for my personal projects.
