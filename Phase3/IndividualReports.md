@@ -11,7 +11,7 @@
 
 ##magicmamba - Shivain Thapar
 
-* My most significant individual contribution - Setting up the front end and creating the initial views/templates. Set up the design on which rest of the project was based. Also contributed for all of the write-ups(.md files)
+* My most significant individual contribution - Setting up the front end and creating the initial views/templates. Set up the design on which rest of the project was based. Also contributed for all of the write-ups (.md files).
 * New techniques/issues that I learned - Learned how to use Github better, especially some new branching techniques. Got to know the MVC design pattern more, and how views and templates interact with the backend. Can use Django now for my personal projects.
 * I believe that my main strengths as a team member are that I am persistent and I stick to something when I start it. I will not stop till it is completed, and work hard to solve problems/issues if I have any.
 * My weakness as a team member is that sometimes I can procrastinate and don’t work if I really don’t have to or only if it is last second. Also I can get impatient with team members if I feel their work is not as good as I expect it to be. 
