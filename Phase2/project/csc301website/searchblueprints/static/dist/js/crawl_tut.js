@@ -1,3 +1,28 @@
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie != '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+$.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {
+            // Only send the token to relative URLs i.e. locally.
+            xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+        }
+    }
+});
+
 var pageNumber = 0;
 		
 		function navPage(increment)
@@ -58,7 +83,7 @@ var pageNumber = 0;
 			$( "#cr1_4" ).delay( 3500 ).fadeIn( 400 );
 			$( "#cr1_5" ).delay( 4000 ).fadeIn( 400 );
 		}
-
+		
 		function cr_l2(){
 			
 			$('.hid2').hide();
@@ -77,5 +102,19 @@ var pageNumber = 0;
 			$( "#cr3_2" ).delay( 2000 ).fadeIn( 300 );
 			$( "#cr3_3" ).delay( 3000 ).fadeIn( 300 );
 
+		}
+		function doStuff(){
+			$.ajax({
+					 type: "POST",
+					url: "/runScript/",
+					success: function(response){
+					   output = response;
+					   alert(output);
+			   }
+			}).done(function(data){
+				
+			});
+		
+		
 		}
 		
