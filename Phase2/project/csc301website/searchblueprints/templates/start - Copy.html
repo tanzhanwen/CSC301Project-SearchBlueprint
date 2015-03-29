@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+   
+    <head>
+        <title>
+            Project
+        </title>
+        <meta charset="utf-8"></meta>
+        <link rel = "stylesheet" href = "css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+	       <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-01" data-target="#myNavbar">
+			     <span class="sr-only">Toggle navigation</span>
+		      </button>
+		      <a class="navbar-brand" href="#">Search Blueprint - TeamNine - CSC301 </a>
+	       </div>
+        </nav>
+        <!-- /navbar -->
+        <!--second navbar-->
+        <nav class="navbar navbar-default  navbar-fixed-top" style="margin-top:45px;">
+	       <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+			     <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">How it Works</a>
+	       </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class= "nav navbar-nav">
+                    <li><a href = "#crawl">Web Crawling</a></li>
+                    <li><a href="#index">Indexing</a></li>
+                    <li><a href="#algo">Algorithms</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--first-->
+        <div class="jumbotron" style="width:100%; margin-top:90px;" id="crawl">
+            <h1 align="center"><font face="Berlin Sans FB Demi">How does search engine work?</font></h1>
+        </div>
+        <div class="container">
+                            
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    
+                    <div class="col-sm-8">          
+                        <h2><font face="impact">Search engines gather data using web crawler.</font></h2>
+                        
+                        Web crawler (a.k.a web spider) is an Internet bot (software that runs automated scripts on Internet)
+                        that returns information by visiting the webpages and following the links that are found within that webpage.
+                        The crawling process begins with the list of URLs. When crawler visits each URLs, it adds all the hyperlinks 
+                        in a webpage into the list of URLs to visit and stores information that will later be processed by the
+                        search engine. This process will repeat to update website information, add new URLs or
+                        remove URLs that does not exist.
+ 
+                       
+                        
+                    </div>
+                    <div class="col-sm-4">
+                        <img src = "webcrawler.jpg" title="img src=http://seo-advisors.com/searchegnies-web-crawlers/" style="width:100%">
+                        
+                    
+                    </div>
+                </div>
+                <hr>
+                <div class="jumbotron" id="index">
+                </div>
+                <hr>
+                <div class="form-group">
+                
+                    <div class="col-sm-4">          
+                        <img src="database.jpg" title="database" style="width:100%">
+                        
+                    </div>
+                    <div class="col-sm-8">
+                        <h2><font face="impact">Search engines build index with data</font></h2>
+                        <p>
+                            What does the search engine do with the data that was collected by the web crawler?
+                            When web crawler finishes crawling a webpage, a search engine will store data in a placed called index.
+                            Search engine will store information about the data, and the URL for that webpage.
+                            
+                            
+                        </p>
+                    </div>                
+                
+                </div>
+                <hr>
+                <div class="jumbotron" id="algo">
+                </div>
+                <hr>
+                <div class="form-group">
+                
+                    <div class="col-sm-8">          
+                        <h2><font face="impact">Search engines use different algorithms to give you back the right results</font></h2>
+                            When user types a query into a search engine, search engine will look through the index to provide
+                        the list of best matching webpages. Every search engines have their own algorithms to produce the search results,
+                        but PageRank is one of the most well-known algorithm used to imporve the search result. PageRank sorts the result
+                        from the index by the popularity of the webpage; the more links that point to a webpage the more useful it is.
+                        The other factors of sorting results include the frequency of keywords in a webpage, recently updated webpage and more.
+                        
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="pagerank.png" title="pagerank" style="width:100%;">
+                    </div>                
+                
+                </div>
+            </form>
+        </div>
+
+    
+    
+    
+        <!--/first-->
+
+
+    </body>
+
+
+
+</html>
