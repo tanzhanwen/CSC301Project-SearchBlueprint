@@ -26,17 +26,19 @@ def report(crawler, file=None):
     
     cur = conn.cursor()
     prefix = crawler.roots.pop()
-    SQL = "INSERT INTO home_domain (name) VALUES (%s);"
+    SQL = "INSERT INTO home_domain (name) VALUES (?);"
     data = (prefix,)
     cur.execute(SQL, data)
     conn.commit()
     
-    SQL = "SELECT id FROM home_domain WHERE name=(%s);"
+    SQL = "SELECT id FROM home_domain WHERE name=(?);"
     data = (prefix,)
     cur.execute(SQL, data)
     current_id = cur.fetchone()[0]
     
     """Print a report on all completed URLs."""
+    finalList = []
+    urlCount = 0
     t1 = crawler.t1 or time.time()
     dt = t1 - crawler.t0
     if dt and crawler.max_tasks:
@@ -51,9 +53,13 @@ def report(crawler, file=None):
         for stat in show:
             url_report(stat, stats, file=file)
             
-            SQL = "INSERT INTO home_address (title,domain_id) VALUES (%s,%s);"
+            SQL = "INSERT INTO home_address (title,domain_id) VALUES (?,?);"
+
             data = (stat.url,current_id,)
             cur.execute(SQL, data)
+            if urlCount < 10:
+                finalList.append(stat.url)
+                urlCount += 1
         conn.commit()
         cur.close()
         conn.close()
@@ -68,7 +74,8 @@ def report(crawler, file=None):
     print('Todo:', crawler.q.qsize(), file=file)
     print('Done:', len(crawler.done), file=file)
     print('Date:', time.ctime(), 'local time', file=file)
-
+    
+    return finalList
 
 def url_report(stat, stats, file=None):
     """Print a report on the state for this URL.
