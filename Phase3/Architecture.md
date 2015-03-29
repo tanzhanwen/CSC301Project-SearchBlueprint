@@ -1,16 +1,4 @@
--Max 500 words
-
--Major components of the system, and how they interact with one another
-
--Feel free to use diagrams
-
--One or two most important architecht decisions you have made
-
->Reasons behind making the decision
-
->Do you still think it is a good decistion?
-
-##Architecture 
+## Architecture 
     
 As with any project, ours has the two main components, the front end and the back end. The following describe what they are created using, and how they interact with each other.
 
@@ -30,14 +18,14 @@ For back end, we used Python and the Django framework. The reason why we chose D
  Some of the major components created for this web application are:
  
 *	Our Own Web Crawler - our own basic web crawler that is able to crawl through databases and collect data. The simple web crawler is utilized in the "Crawler" section of our tutorial so users can examine the code and learn its parts and their functionality. One of the controllers runs the script and returns the data in an Ajax call.
-*	Haystack: It is a framework that provides a modular searching feature for Django. It allows for multiple search engines to be integrated (in our web app, we used the Whoosh search engine and Elastic search engine) without changing anything in the code. This is what we use in the compare web page.
-*	Whoosh search engine: A simple python based search engine
-*	Elasticsearch : A java based search engine.
+*	Haystack -  a framework that provides a modular searching feature for Django. It allows for multiple search engines to be integrated (in our web app, we used the Whoosh search engine and Elastic search engine) without changing anything in the code. This is what we use in the compare web page.
+*	Whoosh search engine - a simple python based search engine
+*	Elasticsearch - a java based search engine.
 
-###Important architectural designs:
+#### Important architectural design decisions:
 
 There were a couple of major changes to the architectural design of the project.
 
-Initially we had plans of adding registration that allowed users to save the progress of the tutorial and look at their scores in the quizzes. We realized that this can be easily made by storing cookies. This also changed the way our front end tutorial app connected to the back end. Since we aren’t storing the results of the mini quizzes, the structure of the tutorial changed.
+Initially we had plans of adding registration that allowed users to save the progress of the tutorial and look at their scores in the quizzes, which we decided not to implement as a part of our final product even though it could be easily made by storing cookies. This also changed the way our front end tutorial app connected to the back end. Since we aren’t storing the results of the mini quizzes, the structure of the tutorial changed from what we had initially envisioned. We like the new way better and think it was a good decision to go in this direction.
 
 Another major decision was to create our own crawler to use with Django as python scripts can be easily run in Django.
