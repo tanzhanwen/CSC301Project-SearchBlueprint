@@ -1,18 +1,6 @@
--Max 1000 words
+#Product
 
--Goal:
-
--Inform potential users of the product the decisions we made
-
-* Which feature did we focus on?
-
-* How to use your product? (1 or 2 quick scenario)
-
--Give TA some insights about the project
-
-
-
-Search Blueprint is a educational web application tailored for use by university students who are interested in search engines with limited knowledge. It aims to help people to understand the basic fundamentals of how a search engine works, as well as providing some details of search engine's components such as the web crawler and basic algorithms. 
+Search Blueprint is an educational web application tailored for use by university students who are interested in search engines with limited knowledge. It aims to help people to understand the basic fundamentals of how a search engine works, as well as providing some details of search engine's components such as the web crawler and basic algorithms. 
 
 Our team believes that interactions in the web application are the first priority as it is crucial to grasp people's attention and keep them interested and stimulated. There are a lot of online search engine tutorials available, yet most of them are simply texts and pictures with zero interactions. We want to distinguish ourselves from these tutorials and provide a different learning experience for our users.
 
