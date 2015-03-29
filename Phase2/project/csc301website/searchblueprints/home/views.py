@@ -1,8 +1,13 @@
 from django.shortcuts import render
-import logging
+import json
 # Create your views here.
 from django.shortcuts import render_to_response
 from django.template import RequestContext
+import logging, logging.config
+from django.http import HttpResponse
+import sys
+import test_crawler
+from django.http import HttpRequest
  
 def index(request):
     return render_to_response('home/index.html', context_instance=RequestContext(request))
@@ -17,10 +22,11 @@ def howitworks(request):
     return render_to_response('home/howitworks.html', context_instance=RequestContext(request))
 
 def compare(request):
+    logging.info('Hello')
     return render_to_response('home/compare.html', context_instance=RequestContext(request))
 
 def crawler(request):
-    logger.error("try",request.path)
+    
     return render_to_response('home/crawler.html', context_instance=RequestContext(request))
 
 def algorithms(request):
@@ -28,3 +34,10 @@ def algorithms(request):
 
 def indexing(request):
     return render_to_response('home/indexing.html', context_instance=RequestContext(request))
+def runScript(request):
+    if request.method =="POST":
+        a = test_crawler.testCall()
+        print(a)
+        return HttpResponse(json.dumps({'stuff': "hello"}))
+    else:
+        return json.dumps({'message': "hello"})
