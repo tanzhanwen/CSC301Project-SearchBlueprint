@@ -28,7 +28,7 @@ var pageNumber = 0;
 		function navPage(increment)
 		{
 		    var d  = 0;
-		     if(increment && pageNumber<10)
+		     if(increment && pageNumber<14)
 		    {
 		        pageNumber = pageNumber +1; 
 				d = 1;

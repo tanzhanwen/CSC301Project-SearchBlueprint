@@ -14,6 +14,7 @@ function getCookie(name) {
     return cookieValue;
 }
 
+
 $.ajaxSetup({
     beforeSend: function(xhr, settings) {
         if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {
@@ -22,13 +23,13 @@ $.ajaxSetup({
         }
     }
 });
-
+var datas= "";
 var pageNumber = 0;
 		
 		function navPage(increment)
 		{
 		    var d  = 0;
-		     if(increment && pageNumber<11)
+		     if(increment && pageNumber<14)
 		    {
 		        pageNumber = pageNumber +1; 
 				d = 1;
@@ -174,10 +175,18 @@ var pageNumber = 0;
 					url: "/runScript/",
 					success: function(response){
 					   output = response;
-					   alert(output);
+					   
+					   outputs = output.split("http://");
+				
+					   for (i = 0;i<outputs.length;i++){
+							var table = document.getElementById("table");
+							var row = table.insertRow(-1);
+							var cell1 = row.insertCell(0);
+							cell1.innerHTML = outputs[i];
+						}
 			   }
 			}).done(function(data){
-				
+			 
 			});
 		
 		
