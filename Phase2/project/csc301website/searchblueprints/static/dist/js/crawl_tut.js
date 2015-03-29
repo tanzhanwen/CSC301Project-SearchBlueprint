@@ -14,6 +14,7 @@ function getCookie(name) {
     return cookieValue;
 }
 
+
 $.ajaxSetup({
     beforeSend: function(xhr, settings) {
         if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {
@@ -22,13 +23,13 @@ $.ajaxSetup({
         }
     }
 });
-
+var datas= "";
 var pageNumber = 0;
 		
 		function navPage(increment)
 		{
 		    var d  = 0;
-		     if(increment && pageNumber<11)
+		     if(increment && pageNumber<13)
 		    {
 		        pageNumber = pageNumber +1; 
 				d = 1;
@@ -72,6 +73,12 @@ var pageNumber = 0;
             		if(pageNumber == 11){
                 	cr_l11();
             		}
+					if(pageNumber == 12){
+                	cr_l12();
+            		}
+					if(pageNumber == 13){
+                	cr_l13();
+            		}
 			}
 		    }
 			
@@ -106,6 +113,7 @@ var pageNumber = 0;
 			$( "#cr2_2" ).delay( 1000 ).fadeIn( 300 );
 			$( "#cr2_3" ).delay( 2000 ).fadeIn( 300 );
 			$( "#cr2_4" ).delay( 3000 ).fadeIn( 300 );
+			
 
 		}
 		function cr_l3(){
@@ -168,17 +176,56 @@ var pageNumber = 0;
             		$( "#cr11_4" ).delay( 4000 ).fadeIn( 300 );
 
 		}
+		function cr_l12(){
+			
+			$('.hid12').hide();
+			 
+			$( "#cr12_1" ).delay( 0 ).fadeIn( 300 );
+			$( "#cr12_2" ).delay( 2000 ).fadeIn( 300 );
+			$( "#cr12_3" ).delay( 3000 ).fadeIn( 300 );
+            $( "#cr12_4" ).delay( 4000 ).slideDown( 300 );
+			$( "#cr12_5" ).delay( 5000 ).slideDown( 300 );
+            $( "#cr12_6" ).delay( 6000 ).slideDown( 300 );
+			$( "#cr12_7" ).delay( 7000 ).slideDown( 300 );
+
+
+		}
+		function cr_l13(){
+			
+			$('.hid13').hide();
+			 
+			$( "#cr13_1" ).delay( 1000 ).fadeIn( 300 );
+			$( "#cr13_2" ).delay( 2000 ).fadeIn( 300 );
+			
+            		
+
+		}
 		function doStuff(){
+			$( "#cr13_5" ).fadeIn( 300 );
 			$.ajax({
 					 type: "POST",
-					url: "/runScript/",
+					url: "/runScript/yay",
 					success: function(response){
 					   output = response;
-					   alert(output);
+					   
+					   outputs = output.split("http://");
+					   
+					   for (i = 0;i<outputs.length;i++){
+							var table = document.getElementById("table");
+							var row = table.insertRow(-1);
+							var cell1 = row.insertCell(0);
+							cell1.innerHTML = outputs[i];
+						}
+						
 			   }
+			  
+			   
 			}).done(function(data){
-				
+			 $( "#cr13_4" ).fadeIn( 300 );
+			 $( "#cr13_3" ).fadeIn( 300 );
+			 $( "#cr13_5" ).fadeOut( 300 );
 			});
+			 
 		
 		
 		}

@@ -1,6 +1,13 @@
 <!---->
+<div class="page-wrap">
 <div class = "content" id = "content" align="center" >
+
 		
+      
+
+		<div  class="btn btn-hg btn-primary" id="prevButton" style= "float:left; margin-left:100px" onclick = "navPage(0)"> PREV </div>
+		<div  class="btn btn-hg btn-primary" id="nextButton" style= "float:right; margin-right:100px"onclick="navPage(1)"> NEXT </div>
+
 		<div class="container" id="container0"> <h3>Web Crawlers</h3> Welcome to the interactive tutorial on web crawlers. Press the next button to continue to the first lesson.</div>
 		
 		<div class="container" id="container1" style="display:none"> 
@@ -40,15 +47,17 @@
         <div class="container" id="container11" style="display:none">
             {% include "crawler/crawler_11.html" %}
         </div>
+		<div class="container" id="container12" style="display:none">
+            		{% include "crawler/crawler_12.html" %}
+        	</div>
+				
+		<div class="container" id="container13" style="display:none">
+            		{% include "crawler/crawler_13.html" %}
+        </div>
 	</div>
 
-
-	<div  align="center" class="footer" id = "footer">
-      
-
-		<div  class="btn btn-hg btn-primary" id="prevButton" onclick = "navPage(0)"> PREV </div>
-		<div  class="btn btn-hg btn-primary" id="nextButton" onclick="navPage(1)"> NEXT </div>
-	</div>
+</div>
+	
 	
 
     
