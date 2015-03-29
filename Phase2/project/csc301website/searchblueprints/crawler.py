@@ -101,6 +101,9 @@ class Crawler(object):
         while self.threads:
             if len(self.visited)>15:
                 sys.exit(1)
+                print("yes")
+            else:
+                print(len(self.visited))
             try:
                 for t in self.threads:
                     t.join(1)
