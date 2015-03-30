@@ -19,7 +19,10 @@
 
 ##lifejuggler
 
-* Fill the report
+* My most significant individual contribution - Setting up the back-end by helping set up a version of the webcrawler, model/schema configurations and search engine (elastic search).
+* New techniques/issues that I learned - Learned how the Django functions along with virtual server. I also learned how to modify/debug existing scripts/plugins to provide results that I need.
+* I believe that my main strengths as a team member are that I am proficient in figuring out difficult errors and find possible solutions.
+* My weakness as a team member is that due to my busy schedule, I was unable to consistently show results in github. I also have some difficulty communicating with my teammembers. 
 
 ##sang1029
 
