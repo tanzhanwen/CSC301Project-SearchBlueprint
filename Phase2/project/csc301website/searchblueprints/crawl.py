@@ -69,7 +69,7 @@ def crawl(url):
     print(domainList)
     crawler.close()
     loop.close()
-def main():
+def main(url):
     """Main program.
 
     Parse arguments, set up event loop, run crawler, print report.

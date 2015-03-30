@@ -122,6 +122,7 @@ class Crawler(object):
             return '.'.join(parts[1:])
 
     def _follow_link(self, url, link):
+        
         # Remove anchor
         link = re.sub(r'#[^#]*$', '', link)
 
@@ -198,7 +199,7 @@ class Crawler(object):
         self.concurrency_lock.release()
 
     def _worker(self, _):
-        while self.targets:
+        while self.targets and len(self.visited)<15:
             try:
                 self.targets_lock.acquire()
                 url = self.targets.pop()
