@@ -34,6 +34,9 @@
 
 ##tanzhanwen
 
-* Fill the report
+* My most significant individual contribution is that I modified the open-source crawler so that it can connect to our database and automatically stores results that it searched into database (https://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/tree/master/Phase2/project/csc301website/searchblueprints/webcrawler)
+* New techniques that I learned from the project: I learned how Github and Django platform work better. And I got to know how to set up a database in my PC and to interact with it using python, like query, insertion, etc.
+* I think my strength is that I make efforts to study something that I am totally unfamiliar with at the beginning. For example, I totally didn't know how crawler works at the beginning. However, by reading the documentations of the open-source crawler and searching about how to interact with database using python, I can finally make it.
+* My weakness as a team member is that I didn't communicate with my group mates a lot. For example, when I was confused and found something difficult, I preferred to work alone but not asked my team mates for helps and advice. Therefore, what I did was sometimes inefficient and didn't contribute a lot to our project.
 
 #
