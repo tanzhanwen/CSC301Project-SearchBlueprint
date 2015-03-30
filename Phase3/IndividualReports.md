@@ -31,9 +31,15 @@
 * My strength as a team member are helping others if they had any problems, and finishing up my work on time.
 * My weakness as a team member is that I sometimes did not know what others were working on and this created conflicts when I tried to submit my work on Github.
 
-##vrprojects
+##vrprojects - Vignesh Ravi
 
-* Fill the report
+* My most significant contribution was setting up the backend to properly follow the MVC pattern \([Commit] (https://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/commit/f46f69e2de77206c86767eb87678ac50ea8a6a8c)\). I also created functions that bridged between the backend and front end \([view.py](https://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/blob/master/Phase2/project/csc301website/searchblueprints/home/views.py)\) and created the interactive tutorial scripts in the front end. \([crawler_tut.js](http://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/blob/master/Phase2/project/csc301website/searchblueprints/static/dist/js/crawl_tut.js)\).
+
+* New techniques/issues that I learned - I learned how to run external scripts using Django \([view.py](https://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/blob/master/Phase2/project/csc301website/searchblueprints/home/views.py)\) and how to implement a search engine in the backend \([whoosh search engine](https://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/tree/master/Phase2/project/csc301website/searchblueprints/searchsample)\).  I also learned about how crawlers and indexing algorithms work.
+
+* My biggest strength as a team member is my ability to finish a task that the team gives me. During the project, I tried to solve and fix any problems that came from the tasks assigned to me.
+
+* One weakness would be that, I didn't communicate properly with my teammates about what tasks they were doing. Sometimes I didn't know what they were working on, so whenever I pushed a code to the master, some team members had difficulty merging and it created some problems.
 
 ##tanzhanwen
 
