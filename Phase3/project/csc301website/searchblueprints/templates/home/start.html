@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="/static/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+	<link href="/static/dist/css/flat-ui.css" rel="stylesheet">
+	<title>Search Blueprint</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="css/animate.min.css"></script>
+    <link href='css/animate.min.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="../file/js/modernizr.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="css/animate.min.css"></script>
+    	<link href='css/animate.min.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="../file/js/modernizr.js"></script>
+		<style type="text/css">
+	      body, html {
+	          height: 100%;
+	          margin: 0;
+	          -webkit-font-smoothing: antialiased;
+	          font-weight: 100;
+	          text-align: center;
+	      }
+	      
+	      .tabs input[type=radio] {
+	          position: absolute;
+	          top: -9999px;
+	          left: -9999px;
+	      }
+	      .tabs {
+	        width: 720.5px;
+	        float: none;
+	        list-style: none;
+	        position: relative;
+	        padding: 0;
+	        margin: 75px auto;
+	      }
+	      .tabs li{
+	        float: left;
+	      }
+	      .tabs label {
+	          display: block;
+	          padding: 10px 20px;
+	          border-radius: 2px 2px 0 0;
+	          font-size: 24px;
+	          font-weight: normal;
+	          background: rgba(255,255,255,0.2);
+	          cursor: pointer;
+	          position: relative;
+	          top: 3px;
+	          -webkit-transition: all 0.2s ease-in-out;
+	          -moz-transition: all 0.2s ease-in-out;
+	          -o-transition: all 0.2s ease-in-out;
+	          transition: all 0.2s ease-in-out;
+	      }
+	      .tabs label:hover {
+	        background: rgba(255,255,255,0.5);
+	        top: 0;
+	      }
+	      
+	      [id^=tab]:checked + label {
+	        background: #1b9;
+	        color: white;
+	        top: 0;
+	      }
+	      
+	      [id^=tab]:checked ~ [id^=tab-content] {
+	          display: block;
+	      }
+	      .tab-content{
+	        z-index: 2;
+	        display: none;
+	        text-align: left;
+	        width: 100%;
+	        font-size: 22px;
+	        line-height: 140%;
+	        padding-top: 10px;
+	        background: #1b9;
+	        padding: 15px;
+	        color: white;
+	        position: absolute;
+	        top: 53px;
+	        left: 0;
+	        box-sizing: border-box;
+	        -webkit-animation-duration: 0.5s;
+	        -o-animation-duration: 0.5s;
+	        -moz-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	      }
+	    </style>
+</head>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+			<span class="sr-only">Toggle navigation</span>
+		</button>
+		<a class="navbar-brand" href="{% url 'start' %}">Search Blueprint </a>
+	</div>
+	
+	<div class="collapse navbar-collapse" id="navbar-collapse-01">
+    <ul class="nav navbar-nav">
+    	<li class="active"><a class="" hre="{% url 'start' %}" role="button">Start</a></li>
+        <li><a class="" href="{% url 'howitworks' %}" role="button">How Search Engines Work</a></li>
+        <li><a class="" href="{% url 'crawler' %}" role="button">Crawlers</a></li>
+        <!--<li><a class="" href="{% url 'algorithms' %}" role="button">Querying</a></li>-->
+	<li><a class="" href="{% url 'indexing' %}" role="button">Indexing</a></li>
+       <li><a class="" href="/search/" role="button">Search Comparisons</a></li>
+        
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>>
+<!-- /navbar -->
+<body>
+		<div class="container">
+			<!-- Top Navi -->
+
+			<div class="header">
+				<h2>Search Blueprint Instructions</h2>
+				<p>Please select from the following tabs and see the instructions for the corresponding sections:</p>
+			</div>
+
+		
+			<div class="main">
+	        	<ul class="tabs">
+			        <li>
+			          <input type="radio" checked name="tabs" id="tab1">
+			          <label for="tab1">How Search Engine Works</label>
+			          <div id="tab-content1" class="tab-content animated fadeIn">
+					  <br><br>
+			            		In "How Search Engine Works" section, you can have a quick overview of how search engine works before breaking it down and diving into the specific part of the search engine.
+			        	 <br><br>
+					  </div>
+			        </li>
+			        <li>
+			          <input type="radio" name="tabs" id="tab2">
+			          <label for="tab2">Crawlers</label>
+			          <div id="tab-content2" class="tab-content animated fadeIn">
+					<br><br>
+			        		 In the Crawlers section, you will be able to learn how search engines finds all the websites. You can learn about a web crawler functions by looking at some of the codes for a simple webcrawler.
+					<br><br>
+			          </div>
+			        </li>
+			        <!--<li>
+			          <input type="radio" name="tabs" id="tab3">
+			          <label for="tab3">Querying</label>
+			          <div id="tab-content3" class="tab-content animated fadeIn">
+			          	<br><br>
+			          		In the Querying section, you will learn about the different ranking algorithms that search engines use to improve the search results.
+		        		<br><br>
+				  </div>
+			        </li>-->
+			        <li>
+			          <input type="radio" name="tabs" id="tab4">
+			          <label for="tab4">Indexing</label>
+			          <div id="tab-content4" class="tab-content animated fadeIn">
+			           <br><br>
+					  In the Indexing section, you will be able to learn about the major components of search engine indexting, as well as looking at some of the indexing data structures.
+			          <br><br>
+					  </div>
+			        </li>
+					<li>
+			          <input type="radio" checked name="tabs" id="tab5">
+			          <label for="tab5">Search Comparisons</label>
+			          <div id="tab-content5" class="tab-content animated fadeIn">
+			            <br><br>
+					In the Compare section, you will be comparing search engines to see how they differ in terms of search results and their ordering.
+				<br><br>
+			          </div>
+			        </li>
+			    </ul>
+	      	</div>
+		</div><!-- Container -->
+	</body>
+</html>

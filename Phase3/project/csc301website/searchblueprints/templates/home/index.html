@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link href="/static/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/static/dist/css/flat-ui.css" rel="stylesheet">
+
+<head>
+	<title>Search Blueprint</title>
+</head>
+
+<!-- NAVBAR -->	
+<nav class="navbar navbar-inverse " role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+			<span class="sr-only">Toggle navigation</span>
+		</button>
+		<a class="navbar-brand" href="{% url 'start' %}">Search Blueprint </a>
+	</div>
+	
+	<div class="collapse navbar-collapse" id="navbar-collapse-01">
+    <ul class="nav navbar-nav">
+        <li><a class="" href="{% url 'start' %}" role="button">Start</a></li>
+        
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+<!-- JUMBOTRON -->	
+<div class="jumbotron">
+	<div class="container">
+		<h1>
+		Welcome to Search Blueprint!
+		</h1>
+		<p>Here you will learn about how search engines work and see what is happens on the inside. Click the start button below to read the basics, and after that you can choose what you want to learn.
+		</p>
+		
+		<p>
+				<a class="btn btn-hg btn-primary" href="{% url 'start' %}" role="button">START</a>
+				</p>
+	</div>
+</div>
+<footer>
+<p1> By TeamNine For CSC301 - 2015 </p1>
+</footer>
+</html>

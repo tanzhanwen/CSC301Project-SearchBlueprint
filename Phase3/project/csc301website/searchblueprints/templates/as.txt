@@ -1,0 +1,23 @@
+<!--<div class="container" id="container1" style="display:none"> 
+			{% include "indexing/indexing_1.html" %}
+		
+		</div>
+
+		<div class="container" id="container2" style="display:none"> 
+			{% include "indexing/indexing_2.html" %}
+		</div>
+
+		<div class="container" id="container3" style="display:none">
+			{% include "indexing/indexing_3.html" %}
+		</div>
+
+		<div class="container" id="container4" style="display:none">
+			{% include "indexing/indexing_4.html" %}
+		</div>
+		<div class="container" id="container5" style="display:none">
+			{% include "indexing/indexing_5.html" %}
+		</div>
+		<div class="container" id="container6" style="display:none">
+			{% include "indexing/indexing_6.html" %}
+		</div>
+		-->

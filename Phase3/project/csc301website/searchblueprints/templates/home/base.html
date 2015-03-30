@@ -1,0 +1,44 @@
+<html>
+<meta charset="utf-8">
+<link href="/static/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/static/dist/css/flat-ui.css" rel="stylesheet">
+
+<head>
+	<title>Search Blueprint</title>
+	<script src = "/static/dist/js/vendor/jquery.min.js"></script>
+	<script src = "/static/dist/js/index_tut.js"></script>
+	<style>#footer{
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}</style>
+</head>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+			<span class="sr-only">Toggle navigation</span>
+		</button>
+		<a class="navbar-brand" href="{% url 'start' %}">Search Blueprint </a>
+	</div>
+	
+	<div class="collapse navbar-collapse" id="navbar-collapse-01">
+    <ul class="nav navbar-nav">
+        <li><a class="" href="{% url 'howitworks' %}" role="button">How Search Engines Work</a></li>
+        <li><a class="" href="{% url 'crawler' %}" role="button">Crawlers</a></li>
+	<li class="active"><a class="" href="{% url 'indexing' %}" role="button">Indexing</a></li>
+        <li><a class="" href="{% url 'compare' %}" role="button">Compare</a></li>
+        
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+<body>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
