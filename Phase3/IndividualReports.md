@@ -4,8 +4,8 @@
 ##kamrch - Ryan Kam
 
 * My most significan contribution was the design and implementation of the [start.html] (https://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/blob/master/Phase3/project/csc301website/searchblueprints/templates/home/start.html) page, and also most of the write-ups in all of the md files throughout all phases.
-* Prior to working on this project, I had very limited knowledge on webpage development. I have learned a lot on creating webpages in html and CSS while working in the front end team on developing Search Blueprints. A major example would be the [start.html] (https://github.com/UoT-CSC30x-W15/301W15-Prj-Team9-repo/blob/master/Phase3/project/csc301website/searchblueprints/templates/home/start.html) page.
-* I believe that my main strengths as a team member are my communication skills. I always try to stimulate communications within the team and make sure everyone is on the same page. I also helped other teammates set up their development environment when they had trouble with things such as settting up Python, Django or Haystack.
+* Prior to working on this project, I had very limited knowledge on webpage development. I have learned a lot on creating webpages in html and CSS while working in the front end team on developing Search Blueprints. I have also learned how to use Django to create a website.
+* I believe that my main strengths as a team member is my communication skills. I always try to stimulate communications within the team and make sure everyone is on the same page. I also helped other teammates set up their development environment when they had trouble with things such as settting up Python, Django or Haystack.
 * My weakness as a team member is my lack of confidence. Often times when I need to make a decision I would be too afraid of making up my own mind, and would consult my team, which may cause inconvenience.
 
 
