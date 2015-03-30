@@ -1,0 +1,62 @@
+Intro:
+
+What do you think a web crawler is?
+1)a computer virus you get from browsing the web
+2)a program that collects content from the web
+3)a new found species of a spider in the Amazon
+Ans: 2
+
+
+What is it:
+When you enter a query into a search engine, the search engine must first find the webpages before presenting them to you.
+Most search engine use "Web crawlers" to do to job.
+
+Web crawlers can also be referred as:
+-web spiders
+-automatic indexer
+
+The process of going through Internet webpages is called "crawling"
+
+
+
+Why is it needed?
+-Web crawlers can be used by anyone who wants to collect information or data from the publicly available webpages.
+-For search engines, it is used so when a user enters a search query, it can quickly provide relevant results by looking through pre-collected data
+-Search engines use web crawlers to update their database for keeping up with the rapidly expanding internet as well.
+
+
+How it works:
+-Start with a webpage (seed)
+-Find all the links in that page
+(link: a pointer to another webpage)
+-Follow the links to access other webpages
+-Repeat process of finding links to other webpage and finding more links in those webpage
+
+
+How does search engine work with web crawlers
+Search engines, while crawling through the webpages, keeps track of:
+-The words within the page
+-Where the words were found
+
+
+Web crawlers' "Crawling policy"
+The behaviour of a Web crawler is the outcome of a combination of policies:
+-Selection policy: which pages to download
+-re-visit policy: when to check for changes to a webpage
+-politeness policy: how to avoid overloading the website
+-parallelization policy: how to coordinate "distributed web crawlers"
+
+
+Crawlers Identification
+So how do web servers identify web crawlers?
+Crawlers typically identify themselves to a web server by using the User-agent field of an HTTP request.
+Usually the User-agent field contains a URL where the web administrator can find more information about the crawler.
+This is different from Spambots or malicious web crawlers as they are unlikely to place identifying information in the user agent field.
+It is important to have crawlers to identify themselves so the web administrator can contact the owner of the crawler.
+
+
+Crawler traps
+A crawler trap is a set of webpage that causes a web crawler to make an infinite number of requests or even crash (intentioanlly or not)
+Common techniques are:
+-creating indefinitely deep directory structures, such as "http://foo.com/bar/foo/bar/foo/bar/foo/bar/....."
+-documents with session-id's based on required cookies
