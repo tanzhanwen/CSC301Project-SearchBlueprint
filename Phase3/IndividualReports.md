@@ -24,9 +24,12 @@
 * I believe that my main strengths as a team member are that I am proficient in figuring out difficult errors and find possible solutions.
 * My weakness as a team member is that due to my busy schedule, I was unable to consistently show results in github. I also have some difficulty communicating with my teammembers. 
 
-##sang1029
+##sang1029 - Sangdong Kim
 
-* Fill the report
+* My most significant contribution - Creating crawler tutorial, indexing tutorial and how it works page, adding links to all pages and improving website design.
+* New techniques/issues that I learned - I learned how to use Django, creating webpages with Bootstrap CSS and Javascript.
+* My strength as a team member are helping others if they had any problems, and finishing up my work on time.
+* My weakness as a team member is that I sometimes did not know what others were working on and this created conflicts when I tried to submit my work on Github.
 
 ##vrprojects
 
