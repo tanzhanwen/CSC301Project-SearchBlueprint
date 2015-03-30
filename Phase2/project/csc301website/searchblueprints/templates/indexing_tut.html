@@ -1,6 +1,7 @@
 <!---->
 <div class = "content" id = "content" align="center" style="margin-top:50px;">
-		
+		<div  class="btn btn-hg btn-primary" id="prevButton" style= "float:left; margin-left:100px" onclick = "navPage(0)"> PREV </div>
+		<div  class="btn btn-hg btn-primary" id="nextButton" style= "float:right; margin-right:100px"onclick="navPage(1)"> NEXT </div>
 		<div class="container" id="container0"> <h3>Indexing</h3> Welcome to the interactive tutorial on search engine indexing. Press the next button to continue to the first lesson.</div>
 		<div class="container" id="container1" style="display:none"> 
 			{% include "indexing/indexing_1.html" %}
@@ -30,12 +31,7 @@
 	</div>
 
 
-	<div  align="center" class="footer" id = "footer">
-      
-
-		<div  class="btn btn-hg btn-primary" id="prevButton" onclick = "navPage(0)"> PREV </div>
-		<div  class="btn btn-hg btn-primary" id="nextButton" onclick="navPage(1)"> NEXT </div>
-	</div>
+	
 	
 
     
